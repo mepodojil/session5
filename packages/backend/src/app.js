@@ -80,6 +80,13 @@ app.patch('/api/todos/:id/toggle', (req, res) => {
   res.json(todo);
 });
 
+
+// DELETE /api/todos - Delete all todos (for test cleanup)
+app.delete('/api/todos', (req, res) => {
+  todos = [];
+  nextId = 1; // Reset ID counter
+  res.status(204).send();
+});
 // DELETE /api/todos/:id - Delete a todo
 app.delete('/api/todos/:id', (req, res) => {
   const id = parseInt(req.params.id);
