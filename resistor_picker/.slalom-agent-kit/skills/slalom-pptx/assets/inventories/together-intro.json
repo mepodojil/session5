@@ -1,0 +1,419 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.63,
+      "width": 12.08,
+      "height": 1.08,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Together, we’ve created great things"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.92,
+      "width": 12.08,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.64,
+      "top": 4.79,
+      "width": 1.15,
+      "height": 0.32,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.09
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2019",
+          "font_size": 22.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "TEXT_1",
+          "line_spacing": 22.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 2.68,
+      "top": 4.79,
+      "width": 1.15,
+      "height": 0.32,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.09
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2020",
+          "font_size": 22.0,
+          "bold": true,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 5.33,
+      "top": 4.79,
+      "width": 1.15,
+      "height": 0.32,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.09
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2021",
+          "font_size": 22.0,
+          "bold": true,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 8.0,
+      "top": 4.79,
+      "width": 3.51,
+      "height": 0.32,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.09
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2022 and beyond",
+          "font_size": 22.0,
+          "bold": true,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.52,
+      "top": 6.15,
+      "width": 1.38,
+      "height": 1.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.6
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-11": 0.04,
+          "shape-12": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Header / Date\u000bLorem ipsum dolor \u000bsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 3.57,
+      "top": 6.15,
+      "width": 1.38,
+      "height": 1.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.6
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-12": 0.21
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Header / Date\u000bLorem ipsum dolor \u000bsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 6.41,
+      "top": 6.15,
+      "width": 1.38,
+      "height": 1.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.6
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-12": 0.21
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Header / Date\u000bLorem ipsum dolor \u000bsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 9.49,
+      "top": 6.15,
+      "width": 1.38,
+      "height": 1.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.6
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Header / Date\u000bLorem ipsum dolor \u000bsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 11.55,
+      "top": 6.15,
+      "width": 1.38,
+      "height": 1.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.6
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-13": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Header / Date\u000bLorem ipsum dolor \u000bsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-6": 0.04
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-6": 0.17,
+          "shape-7": 0.21,
+          "shape-8": 0.21
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-10": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "30"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 1.52,
+      "top": 10.81,
+      "width": 1.38,
+      "height": 1.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.6
+        },
+        "slide": {
+          "overflow_bottom": 4.48
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Header / Date\u000bLorem ipsum dolor \u000bsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 5.62,
+      "top": 10.81,
+      "width": 1.38,
+      "height": 1.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.6
+        },
+        "slide": {
+          "overflow_bottom": 4.48
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Header / Date\u000bLorem ipsum dolor \u000bsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 11.3,
+      "top": 10.81,
+      "width": 1.38,
+      "height": 1.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.6
+        },
+        "slide": {
+          "overflow_bottom": 4.48
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Header / Date\u000bLorem ipsum dolor \u000bsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 17.46,
+      "top": 10.81,
+      "width": 1.38,
+      "height": 1.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.6
+        },
+        "slide": {
+          "overflow_right": 5.5,
+          "overflow_bottom": 4.48
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Header / Date\u000bLorem ipsum dolor \u000bsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 21.56,
+      "top": 10.81,
+      "width": 1.38,
+      "height": 1.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.6
+        },
+        "slide": {
+          "overflow_right": 9.6,
+          "overflow_bottom": 4.48
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Header / Date\u000bLorem ipsum dolor \u000bsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "line_spacing": 11.0
+        }
+      ]
+    }
+  }
+}

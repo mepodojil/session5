@@ -1,0 +1,184 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.63,
+      "width": 12.08,
+      "height": 1.08,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Our understanding"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.92,
+      "width": 12.08,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 3.22,
+      "width": 3.08,
+      "height": 3.66,
+      "paragraphs": [
+        {
+          "text": "One line subheadline",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": true,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Beremod maximusaesto dunt labo. Et laborum que parit. Beremod maximusaesto dunt labo. Et laborum que parit.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Beremod maximusaesto dunt labo. Et laborum que parit. Beremod maximusaesto dunt labo. Et laborum que parit.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 4.74,
+      "top": 3.22,
+      "width": 3.08,
+      "height": 3.66,
+      "paragraphs": [
+        {
+          "text": "One line subheadline",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": true,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Beremod maximusaesto dunt labo. Et laborum que parit. Beremod maximusaesto dunt labo. Et laborum que parit.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Beremod maximusaesto dunt labo. Et laborum que parit. Beremod maximusaesto dunt labo. Et laborum que parit.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 8.85,
+      "top": 3.22,
+      "width": 3.08,
+      "height": 3.66,
+      "paragraphs": [
+        {
+          "text": "One line subheadline",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": true,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Beremod maximusaesto dunt labo. Et laborum que parit. Beremod maximusaesto dunt labo. Et laborum que parit.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Beremod maximusaesto dunt labo. Et laborum que parit. Beremod maximusaesto dunt labo. Et laborum que parit.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "29"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 11.0,
+      "top": 0.02,
+      "width": 2.22,
+      "height": 0.36,
+      "paragraphs": [
+        {
+          "text": "READ ME THEN DELETE MEz",
+          "font_name": "Slalom Sans Bold",
+          "font_size": 10.92,
+          "bold": true,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.01,
+      "top": 0.35,
+      "width": 2.18,
+      "height": 0.59,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-5": 0.61
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "As of January 2024. Visit the boilerplates page on Slalom One for the latest.",
+          "space_before": 3.12,
+          "font_name": "Slalom Sans",
+          "font_size": 8.79,
+          "color": "EB4536",
+          "line_spacing": 10.83
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.63,
+      "top": 0.62,
+      "width": 2.5,
+      "height": 0.47,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "About Slalom",
+          "font_size": 18.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 3.82,
+      "top": 0.62,
+      "width": 2.7,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "About (partner name)",
+          "font_size": 18.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 7.02,
+      "top": 0.62,
+      "width": 2.7,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "About (partner name)",
+          "font_size": 18.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 10.21,
+      "top": 0.62,
+      "width": 2.7,
+      "height": 0.47,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 0.61
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "About (partner name)",
+          "font_size": 18.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.63,
+      "top": 1.92,
+      "width": 2.5,
+      "height": 4.96,
+      "paragraphs": [
+        {
+          "text": "Slalom is a purpose-led, global business and technology consulting company.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 11.0
+        },
+        {
+          "text": "From strategy to implementation, our approach is fiercely human. We deeply understand our customers—and their customers—to deliver practical, end-to-end solutions that drive meaningful impact. Backed by close partnerships with over 700 leading technology providers, our nearly 12,000 team members in eight countries and 49 offices help people and organizations dream bigger, move faster, and build better tomorrows for all. We’re honored to be consistently recognized as a great place to work, including being one of Fortune’s 100 Best Companies to Work For eight years running.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "line_spacing": 11.0
+        },
+        {
+          "text": "Learn more at slalom.com.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 3.82,
+      "top": 1.91,
+      "width": 2.5,
+      "height": 3.67,
+      "paragraphs": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet risus nullam eget felis eget nunc lobortis mattis. Diam donec adipiscing tristique risus nec feugiat in fermentum. Et leo duis ut diam quam nulla porttitor. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris a diam maecenas sed enim. Lacinia quis vel eros donec ac odio tempor. Platea dictumst quisque sagittis purus sit amet. Nibh praesent tristique magna sit. In arcu cursus euismod quis viverra nibh.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "line_spacing": 11.0
+        },
+        {
+          "text": "Learn more at partnerwebsite.com.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 7.02,
+      "top": 1.92,
+      "width": 2.5,
+      "height": 3.67,
+      "paragraphs": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet risus nullam eget felis eget nunc lobortis mattis. Diam donec adipiscing tristique risus nec feugiat in fermentum. Et leo duis ut diam quam nulla porttitor. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris a diam maecenas sed enim. Lacinia quis vel eros donec ac odio tempor. Platea dictumst quisque sagittis purus sit amet. Nibh praesent tristique magna sit. In arcu cursus euismod quis viverra nibh.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "line_spacing": 11.0
+        },
+        {
+          "text": "Learn more at partnerwebsite.com.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 10.21,
+      "top": 1.92,
+      "width": 2.5,
+      "height": 3.67,
+      "paragraphs": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet risus nullam eget felis eget nunc lobortis mattis. Diam donec adipiscing tristique risus nec feugiat in fermentum. Et leo duis ut diam quam nulla porttitor. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris a diam maecenas sed enim. Lacinia quis vel eros donec ac odio tempor. Platea dictumst quisque sagittis purus sit amet. Nibh praesent tristique magna sit. In arcu cursus euismod quis viverra nibh.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "line_spacing": 11.0
+        },
+        {
+          "text": "Learn more at partnerwebsite.com.",
+          "space_after": 10.0,
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "148"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.61,
+      "top": 0.77,
+      "width": 8.31,
+      "height": 0.92,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Compelling headline should highlight the customer outcome",
+          "space_before": 0.58,
+          "line_spacing": 12.02
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.64,
+      "top": 2.52,
+      "width": 3.08,
+      "height": 3.36,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 8.36
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Use this space to provide a concise overview of the project. Summarize what we did & why it was so impactful."
+        },
+        {
+          "text": "Remember to make customer the hero, with Slalom as the trusted advisor that helped them realize their vision."
+        },
+        {
+          "text": "Vel estionseque is ni doloreptatae coreped es as nem ea  coris quate sim entem. Enis quae con conestis dolorep  udanist rument."
+        },
+        {
+          "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip \u000bex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit \u000besse cillum dolore eu fugiat nulla pariatur."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 4.74,
+      "top": 2.53,
+      "width": 1.81,
+      "height": 0.21,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "People",
+          "font_size": 11.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 4.74,
+      "top": 2.92,
+      "width": 2.06,
+      "height": 1.38,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "33k households served",
+          "font_size": 11.0
+        },
+        {
+          "text": "174k people served",
+          "font_size": 11.0
+        },
+        {
+          "text": "765k meals provided",
+          "font_size": 11.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 7.55,
+      "top": 2.91,
+      "width": 2.02,
+      "height": 1.39,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "CO2 emissions saved",
+          "font_size": 11.0
+        },
+        {
+          "text": "Paper waste reduced",
+          "font_size": 11.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 7.57,
+      "top": 2.55,
+      "width": 1.02,
+      "height": 0.21,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "Planet",
+          "font_size": 11.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 4.75,
+      "top": 4.87,
+      "width": 1.79,
+      "height": 0.21,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "Performance",
+          "font_size": 11.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 4.75,
+      "top": 5.26,
+      "width": 1.79,
+      "height": 1.98,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-12": 0.23
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "136 food pantries across 16 states",
+          "font_size": 11.0
+        },
+        {
+          "text": "Significantly faster than paper forms",
+          "font_size": 11.0
+        },
+        {
+          "text": "Dynamic TEFAP eligibility determination",
+          "font_size": 11.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 7.58,
+      "top": 4.87,
+      "width": 1.79,
+      "height": 0.21,
+      "paragraphs": [
+        {
+          "text": "Solutions",
+          "font_size": 11.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 7.58,
+      "top": 5.25,
+      "width": 1.79,
+      "height": 1.98,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-12": 0.16
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Cloud Provider: Azure",
+          "font_size": 11.0
+        },
+        {
+          "text": "Front-end: Angular 13",
+          "font_size": 11.0
+        },
+        {
+          "text": "Back-end: Azure Function API (.NET Core 3.1 - C#)",
+          "font_size": 11.0
+        },
+        {
+          "text": "Database: Azure SQL",
+          "font_size": 11.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 0.62,
+      "top": 6.49,
+      "width": 2.82,
+      "height": 0.44,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.89
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "CUSTOMER STORY: INDUSTRY\u000bCONTACT: FIRSTNAME LASTNAME"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-7": 0.23,
+          "shape-9": 0.16
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "138"
+        }
+      ]
+    }
+  }
+}

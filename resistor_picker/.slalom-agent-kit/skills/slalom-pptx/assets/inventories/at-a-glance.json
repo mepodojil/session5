@@ -1,0 +1,332 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 27.22,
+      "top": 0.0,
+      "width": 3.37,
+      "height": 7.5,
+      "overflow": {
+        "slide": {
+          "overflow_right": 17.25
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Shape Layout INSTRUCTIONS",
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "The colored shape on this layout is intended \u000bto add some fun and interest to the slide.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "The shape is optional. Remove it by selecting and hitting delete.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Change the color by selecting it and \u000bchoosing a new color from the theme row \u000bof the Fill Palette, Accents 1 – 6.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "The background shape should always sit behind the other elements on the slide. \u000bIf an image placeholder exists on the same layout, once you add the image you may have to select it and use Arrange > Send to Back.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.35,
+      "width": 5.14,
+      "height": 0.92,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "At a glance"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 2.57,
+      "width": 5.14,
+      "height": 0.43,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "About the customer"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 6.8,
+      "top": 2.57,
+      "width": 5.91,
+      "height": 0.43,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "What we did"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.62,
+      "top": 3.24,
+      "width": 5.12,
+      "height": 2.23,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "Use this space to provide a concise overview of the  project. Summarize what we did and why it was so  impactful. Remember to make the customer the hero, with Slalom as the trusted advisor that helped them realize their vision."
+        },
+        {
+          "text": "Vel estionseque is ni doloreptatae coreped es as \u000bnem ea  coris quate sim entem. Enis quae con conestis dolorep  udanist rument. Sustemp."
+        },
+        {
+          "text": "Vel estionseque is ni doloreptatae coreped es as \u000bnem ea  coris quate sim entem."
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 6.81,
+      "top": 3.21,
+      "width": 1.7,
+      "height": 0.55,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "123+"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 8.87,
+      "top": 3.21,
+      "width": 1.7,
+      "height": 0.55,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "85%"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 10.95,
+      "top": 3.21,
+      "width": 1.7,
+      "height": 0.55,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "2M"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 6.79,
+      "top": 3.73,
+      "width": 1.72,
+      "height": 0.45,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "Metric with short  description."
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 8.87,
+      "top": 3.73,
+      "width": 1.72,
+      "height": 0.45,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "Metric with short  description."
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 10.95,
+      "top": 3.73,
+      "width": 1.72,
+      "height": 0.45,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "Metric with short  description."
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 6.79,
+      "top": 4.5,
+      "width": 3.86,
+      "height": 0.32,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "Solutions"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 10.93,
+      "top": 4.5,
+      "width": 1.79,
+      "height": 0.32,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "Platforms"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 6.82,
+      "top": 5.18,
+      "width": 1.77,
+      "height": 0.93,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "Cloud platform  architecture"
+        },
+        {
+          "text": "Machine learning"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 8.87,
+      "top": 5.18,
+      "width": 1.77,
+      "height": 0.93,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "List item here"
+        },
+        {
+          "text": "List item here"
+        },
+        {
+          "text": "List item here"
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 10.93,
+      "top": 5.18,
+      "width": 1.77,
+      "height": 0.93,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "AWS SageMaker"
+        },
+        {
+          "text": "AWS Kinesis \u000bData Analytics"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 0.62,
+      "top": 6.43,
+      "width": 5.14,
+      "height": 0.44,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "CUSTOMER STORY: INDUSTRY\u000bCONTACT: FIRSTNAME LASTNAME"
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 3.9,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.35
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "139"
+        }
+      ]
+    }
+  }
+}

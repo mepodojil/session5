@@ -1,0 +1,205 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.63,
+      "width": 12.08,
+      "height": 0.5,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Slide with larger body type for presentations"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.27,
+      "width": 12.08,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.22
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Subtitle necupta ius consequ osseritem quis eium faceperibus re lab il idi ipsum."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 3.22,
+      "width": 3.05,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "Subheadline",
+          "font_size": 22.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 4.75,
+      "top": 3.22,
+      "width": 3.05,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "Subheadline",
+          "font_size": 22.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 8.85,
+      "top": 3.22,
+      "width": 3.05,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "Subheadline",
+          "font_size": 22.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.62,
+      "top": 3.87,
+      "width": 3.06,
+      "height": 3.01,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "Beremod dunt labo. Et laborum que.",
+          "font_size": 22.0
+        },
+        {
+          "text": "Lorem ipsum dolor.",
+          "font_size": 22.0
+        },
+        {
+          "text": "Maecenas porttitor.",
+          "font_size": 22.0
+        },
+        {
+          "text": "Fusce posuere.",
+          "font_size": 22.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 4.75,
+      "top": 3.87,
+      "width": 3.06,
+      "height": 3.01,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "Beremod dunt labo. Et laborum que.",
+          "font_size": 22.0
+        },
+        {
+          "text": "Lorem ipsum dolor.",
+          "font_size": 22.0
+        },
+        {
+          "text": "Maecenas porttitor.",
+          "font_size": 22.0
+        },
+        {
+          "text": "Fusce posuere.",
+          "font_size": 22.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 8.85,
+      "top": 3.87,
+      "width": 3.06,
+      "height": 3.01,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "Beremod dunt labo. Et laborum que.",
+          "font_size": 22.0
+        },
+        {
+          "text": "Lorem ipsum dolor.",
+          "font_size": 22.0
+        },
+        {
+          "text": "Maecenas porttitor.",
+          "font_size": 22.0
+        },
+        {
+          "text": "Fusce posuere.",
+          "font_size": 22.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "89"
+        }
+      ]
+    }
+  }
+}

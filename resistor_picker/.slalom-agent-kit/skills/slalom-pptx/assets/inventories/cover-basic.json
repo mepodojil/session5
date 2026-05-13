@@ -1,0 +1,66 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 1.65,
+      "top": 1.07,
+      "width": 9.0,
+      "height": 0.38,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 0.99
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Deck type"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 1.65,
+      "top": 1.34,
+      "width": 9.0,
+      "height": 0.38,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-0": 0.99
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "XX month year"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 1.65,
+      "top": 2.5,
+      "width": 9.0,
+      "height": 2.0,
+      "placeholder_type": "CENTER_TITLE",
+      "default_font_size": 66.0,
+      "paragraphs": [
+        {
+          "text": "Cover slide headline two lines"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.65,
+      "top": 5.03,
+      "width": 9.0,
+      "height": 0.55,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "paragraphs": [
+        {
+          "text": "Descriptive subhead copy goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa."
+        }
+      ]
+    }
+  }
+}

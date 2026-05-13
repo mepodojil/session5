@@ -1,0 +1,102 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 13.61,
+      "top": 0.0,
+      "width": 3.37,
+      "height": 7.5,
+      "overflow": {
+        "slide": {
+          "overflow_right": 3.64
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "IMAGE Layout INSTRUCTIONS",
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "TEXT_1"
+        },
+        {
+          "text": "This layout is built in layers, with a colored overlay that should hover over the image.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "TEXT_1"
+        },
+        {
+          "text": "In order to add an image, click on the \u000bgradient shape with the dotted line. \u000bUse Arrange > Send to back.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "TEXT_1"
+        },
+        {
+          "text": "Now the image icon will be clickable. \u000bFind and insert your image.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "TEXT_1"
+        },
+        {
+          "text": "To correct the order, use the Reset button. \u000bIf the Reset button upsets any cropping, \u000buse Arrange > Send to back when selected \u000bon the image.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "TEXT_1"
+        },
+        {
+          "text": "The Slalom logo should be easy to read over your image. If it is hard to see, select the logo and change the color fill.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "TEXT_1"
+        },
+        {
+          "text": "The logo should always be either \u000bDark Gray, Text 1, White, Background 1 \u000bor Blue, Accent 1.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "TEXT_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 0.62,
+      "width": 3.87,
+      "height": 6.25,
+      "placeholder_type": "CENTER_TITLE",
+      "default_font_size": 54.0,
+      "paragraphs": [
+        {
+          "text": "Thank you"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 12.96,
+      "top": 7.11,
+      "width": 0.38,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "151"
+        }
+      ]
+    }
+  }
+}

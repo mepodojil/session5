@@ -1,0 +1,203 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.63,
+      "width": 12.08,
+      "height": 1.08,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Longer slide headline. \u000bShould not exceed two lines."
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.92,
+      "width": 4.89,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.83
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Optional text Beremod maximusa esto dunt labo. Et  laborum que parit invere nullit et, simpori atium."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 6.79,
+      "top": 3.96,
+      "width": 1.4,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "Pros",
+          "space_before": 0.76,
+          "font_size": 12.0,
+          "bold": true,
+          "color": "151527"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 9.89,
+      "top": 3.96,
+      "width": 1.4,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "Cons",
+          "space_before": 0.76,
+          "font_size": 12.0,
+          "bold": true,
+          "color": "151527"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 6.79,
+      "top": 4.52,
+      "width": 2.83,
+      "height": 2.35,
+      "paragraphs": [
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        },
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        },
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        },
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        },
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        },
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 9.89,
+      "top": 4.52,
+      "width": 2.83,
+      "height": 2.35,
+      "paragraphs": [
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        },
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        },
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        },
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        },
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        },
+        {
+          "text": "A paragraph or bullet goes here",
+          "space_after": 10.0,
+          "font_size": 12.0,
+          "line_spacing": 13.2
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "60"
+        }
+      ]
+    }
+  }
+}

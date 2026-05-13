@@ -1,0 +1,130 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.62,
+      "width": 12.08,
+      "height": 0.5,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Estimated discovery cost"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.27,
+      "width": 12.08,
+      "height": 0.44,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.28
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Subtitle necupta ius consequ osseritem quis eium faceperibus re lab il idi ipsum."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 3.22,
+      "width": 3.86,
+      "height": 3.42,
+      "paragraphs": [
+        {
+          "text": "Team Structure",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": true,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Level one",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Level two",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Level three",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Level four",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Level five",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "101"
+        }
+      ]
+    }
+  }
+}

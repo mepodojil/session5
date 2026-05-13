@@ -1,0 +1,304 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 1.35,
+      "width": 7.97,
+      "height": 0.92,
+      "placeholder_type": "TITLE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.08
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Compelling headline should highlight the customer outcome"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 3.21,
+      "width": 2.82,
+      "height": 2.98,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 9.96
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Use this space to provide a concise overview of the project. Summarize what we did & why it was so impactful."
+        },
+        {
+          "text": "Remember to make customer the hero, with Slalom as the trusted advisor that helped them realize their vision."
+        },
+        {
+          "text": "Vel estionseque is ni doloreptatae coreped es as nem ea  coris quate sim entem. Enis quae con conestis dolorep  udanist rument."
+        },
+        {
+          "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip \u000bex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit \u000besse cillum dolore eu fugiat nulla pariatur."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.71,
+      "top": 3.22,
+      "width": 1.8,
+      "height": 1.07,
+      "paragraphs": [
+        {
+          "text": "80%",
+          "font_size": 22.0,
+          "bold": true,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 19.8
+        },
+        {
+          "text": "reduction in deal \u000bconfiguration questions",
+          "space_after": 10.0,
+          "font_name": "Avenir Next LT Pro",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.78,
+      "top": 3.22,
+      "width": 1.81,
+      "height": 1.07,
+      "paragraphs": [
+        {
+          "text": "23",
+          "font_size": 22.0,
+          "bold": true,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 19.8
+        },
+        {
+          "text": "CPQ version upgrades \u000bto fully update",
+          "space_after": 10.0,
+          "font_name": "Avenir Next LT Pro",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 7.83,
+      "top": 3.22,
+      "width": 1.03,
+      "height": 1.07,
+      "paragraphs": [
+        {
+          "text": "12",
+          "font_size": 22.0,
+          "bold": true,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 19.8
+        },
+        {
+          "text": "years debt \u000beliminated",
+          "space_after": 10.0,
+          "font_name": "Avenir Next LT Pro",
+          "font_size": 10.0,
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 3.71,
+      "top": 4.51,
+      "width": 1.81,
+      "height": 0.21,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Customer"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 3.71,
+      "top": 4.89,
+      "width": 1.81,
+      "height": 1.98,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 3.93
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Who is the customer?"
+        },
+        {
+          "text": "What will resonate most \u000bwith people who are in the same industry, facing the \u000bsame customer  challenges, \u000bor struggling to develop\u000bsimilar solutions?"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 5.78,
+      "top": 4.51,
+      "width": 1.79,
+      "height": 0.21,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Solutions"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 5.78,
+      "top": 4.89,
+      "width": 1.79,
+      "height": 1.98,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 6.99
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Multi-year, three-phase Salesforce roadmap to transform CRM platform \u000bto scale with growth."
+        },
+        {
+          "text": "Completed: Quote to cash (CPQ) technology rebuild and process optimization."
+        },
+        {
+          "text": "In progress: Salesforce sales process rebuild, lightning migration, revenue tracking."
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 7.83,
+      "top": 4.51,
+      "width": 1.02,
+      "height": 0.21,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Platform"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 7.83,
+      "top": 4.89,
+      "width": 1.02,
+      "height": 1.98,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "Salesforce"
+        },
+        {
+          "text": "CPQ"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 0.62,
+      "top": 6.43,
+      "width": 2.82,
+      "height": 0.44,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.89
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "CUSTOMER STORY: INDUSTRY\u000bCONTACT: FIRSTNAME LASTNAME"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "135"
+        }
+      ]
+    }
+  }
+}

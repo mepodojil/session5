@@ -1,0 +1,227 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.62,
+      "width": 12.08,
+      "height": 0.5,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Gantt chart example"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.27,
+      "width": 12.08,
+      "height": 0.44,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.28
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Subtitle necupta ius consequ osseritem quis eium faceperibus re lab il idi ipsum."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 7.47,
+      "top": 3.88,
+      "width": 1.41,
+      "height": 0.3,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-3": 0.22,
+          "shape-4": 0.03
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Dash 1 Go-Live",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "ACCENT_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 8.13,
+      "top": 3.88,
+      "width": 1.41,
+      "height": 0.3,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.22,
+          "shape-4": 0.23,
+          "shape-5": 0.04
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Dash 2 Go-Live",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "ACCENT_1"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 8.77,
+      "top": 3.88,
+      "width": 1.41,
+      "height": 0.3,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.03,
+          "shape-3": 0.23,
+          "shape-5": 0.23
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Dash 3 Go-Live",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "ACCENT_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 9.41,
+      "top": 3.88,
+      "width": 1.41,
+      "height": 0.3,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-3": 0.04,
+          "shape-4": 0.23
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Dash 4-5 Go-Live",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "ACCENT_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 3.82,
+      "top": 4.93,
+      "width": 0.91,
+      "height": 0.26,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.12
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Risk Gate 1",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 8.99,
+      "top": 4.93,
+      "width": 0.91,
+      "height": 0.26,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.12
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Risk Gate 2",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 20.62,
+      "top": 4.93,
+      "width": 0.91,
+      "height": 0.26,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.12
+        },
+        "slide": {
+          "overflow_right": 8.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Risk Gate 3",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "95"
+        }
+      ]
+    }
+  }
+}

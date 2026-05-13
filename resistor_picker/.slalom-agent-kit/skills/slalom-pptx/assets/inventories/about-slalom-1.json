@@ -1,0 +1,131 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 11.0,
+      "top": 0.02,
+      "width": 2.22,
+      "height": 0.36,
+      "paragraphs": [
+        {
+          "text": "READ ME THEN DELETE ME",
+          "font_name": "Slalom Sans Bold",
+          "font_size": 10.92,
+          "bold": true,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.01,
+      "top": 0.35,
+      "width": 2.18,
+      "height": 0.59,
+      "paragraphs": [
+        {
+          "text": "As of January 2024. Visit the boilerplates page on Slalom One for the latest.",
+          "space_before": 3.12,
+          "font_name": "Slalom Sans",
+          "font_size": 8.79,
+          "color": "EB4536",
+          "line_spacing": 10.83
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 0.62,
+      "width": 5.14,
+      "height": 1.51,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "About\u000bSlalom",
+          "font_size": 54.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.76,
+      "top": 1.91,
+      "width": 5.92,
+      "height": 3.67,
+      "paragraphs": [
+        {
+          "text": "Slalom is a purpose-led, global business and technology consulting company.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "From strategy to implementation, our approach is fiercely human. We deeply understand our customers—and their customers—to deliver practical, end-to-end solutions that drive meaningful impact. Backed by close partnerships with over 700 leading technology providers, our nearly 12,000 team members in eight countries and 49 offices help people and organizations dream bigger, move faster, and build better tomorrows for all. We’re honored to be consistently recognized as a great place to work, including being one of Fortune’s 100 Best Companies to Work For eight years running.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Learn more at slalom.com.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "145"
+        }
+      ]
+    }
+  }
+}

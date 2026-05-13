@@ -1,0 +1,167 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 8.85,
+      "top": 0.63,
+      "width": 3.86,
+      "height": 1.29,
+      "paragraphs": [
+        {
+          "text": "What is it",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": true,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "A consolidated and straight-forward \u000bview for a client summarizing their need and our approach to help.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.58,
+      "width": 4.89,
+      "height": 2.49,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Single Page Response Overview",
+          "font_size": 54.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.64,
+      "top": 1.23,
+      "width": 4.19,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "SPRO TEMPLATE",
+          "space_before": 0.82,
+          "font_size": 12.0,
+          "bold": true,
+          "theme_color": "ACCENT_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 8.85,
+      "top": 2.56,
+      "width": 3.86,
+      "height": 1.29,
+      "paragraphs": [
+        {
+          "text": "When to use it",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": true,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "For opportunities of easy to \u000bmedium size/complexity and/or for unsolicited proposals.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.63,
+      "top": 4.5,
+      "width": 4.88,
+      "height": 1.08,
+      "paragraphs": [
+        {
+          "text": "Looking for more SPRO templates?",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": true,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "Download our full SPRO deck with client examples from our templates site.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 8.85,
+      "top": 4.5,
+      "width": 3.86,
+      "height": 2.38,
+      "paragraphs": [
+        {
+          "text": "When not to use it",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "bold": true,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "For RFPs, complex high dollar opportunities, and for new clients where \u000bwe have limited context and who \u000brequire more detail on Slalom’s breadth and depth of capabilities.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "141"
+        }
+      ]
+    }
+  }
+}

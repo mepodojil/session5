@@ -1,0 +1,82 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 1.65,
+      "top": 1.92,
+      "width": 9.0,
+      "height": 3.67,
+      "placeholder_type": "CENTER_TITLE",
+      "default_font_size": 54.0,
+      "paragraphs": [
+        {
+          "text": "Section divider title  without intro text.   \u000bThree lines only."
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 1.65,
+      "top": 6.42,
+      "width": 1.81,
+      "height": 0.45,
+      "placeholder_type": "BODY",
+      "default_font_size": 14.0,
+      "paragraphs": [
+        {
+          "text": "01. Section indicator"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.71,
+      "top": 6.42,
+      "width": 1.81,
+      "height": 0.45,
+      "placeholder_type": "BODY",
+      "default_font_size": 14.0,
+      "paragraphs": [
+        {
+          "text": "02. Section indicator"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.76,
+      "top": 6.42,
+      "width": 1.81,
+      "height": 0.45,
+      "placeholder_type": "BODY",
+      "default_font_size": 14.0,
+      "paragraphs": [
+        {
+          "text": "03. Section indicator"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 7.82,
+      "top": 6.42,
+      "width": 1.81,
+      "height": 0.45,
+      "placeholder_type": "BODY",
+      "default_font_size": 14.0,
+      "paragraphs": [
+        {
+          "text": "04. Section indicator"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 9.88,
+      "top": 6.42,
+      "width": 1.8,
+      "height": 0.45,
+      "placeholder_type": "BODY",
+      "default_font_size": 14.0,
+      "paragraphs": [
+        {
+          "text": "05. Section indicator"
+        }
+      ]
+    }
+  }
+}

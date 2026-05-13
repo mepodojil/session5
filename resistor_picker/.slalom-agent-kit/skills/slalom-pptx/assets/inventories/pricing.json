@@ -1,0 +1,85 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.63,
+      "width": 3.86,
+      "height": 1.08,
+      "placeholder_type": "TITLE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.35
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Pricing slide. \u000bNo more than three lines."
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 3.21,
+      "width": 4.11,
+      "height": 2.38,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "Optional text Beremod maximusaesto dunt labo. \u000bEt laborum que parit invere nullit et, et  exceatibus sim laborro doluptiat lorem ipsum dolores  sit amet."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "100"
+        }
+      ]
+    }
+  }
+}

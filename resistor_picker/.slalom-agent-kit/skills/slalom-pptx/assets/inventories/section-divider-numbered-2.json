@@ -1,0 +1,30 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 3.57,
+      "width": 4.12,
+      "height": 0.72,
+      "placeholder_type": "BODY",
+      "default_font_size": 4.0,
+      "paragraphs": [
+        {
+          "text": "02"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 4.5,
+      "width": 4.12,
+      "height": 2.38,
+      "placeholder_type": "BODY",
+      "default_font_size": 4.0,
+      "paragraphs": [
+        {
+          "text": "Section \u000bname \u000bthree or \u000bfour lines"
+        }
+      ]
+    }
+  }
+}

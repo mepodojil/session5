@@ -1,0 +1,30 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 1.95,
+      "width": 1.81,
+      "height": 1.05,
+      "placeholder_type": "BODY",
+      "default_font_size": 4.0,
+      "paragraphs": [
+        {
+          "text": "02"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 2.68,
+      "top": 1.95,
+      "width": 7.97,
+      "height": 3.64,
+      "placeholder_type": "TITLE",
+      "default_font_size": 54.0,
+      "paragraphs": [
+        {
+          "text": "Section name"
+        }
+      ]
+    }
+  }
+}

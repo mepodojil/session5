@@ -1,0 +1,458 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.63,
+      "width": 12.08,
+      "height": 1.08,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "SPRO template title.\u000bShould not exceed two lines."
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.69,
+      "width": 1.81,
+      "height": 0.18,
+      "paragraphs": [
+        {
+          "text": "Date  |  Client Name",
+          "font_size": 9.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 2.01,
+      "width": 5.79,
+      "height": 1.31,
+      "paragraphs": [
+        {
+          "text": "Business Need",
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "bold": true,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "This section should focus on the business problem, outlining where the client is struggling and what we are being hired to do.  Make sure this is SIMPLE (will a 1st grader get it?), in PLAIN ENGLISH (no consulting or technical speak!) and can STAND ALONE (can someone understand it if they read this on their own?).\u000bMake sure you cover:",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "1. Aspirational goal (what is the client’s vision or goal driving the need?  Is there a new strategy or change?)\u000b2. Current state problem (what issue is the client facing? Is it impacting business, ops, time-to-market, etc.?)\u000b3. Evidence (what has happened to show the problem is an issue?  The more specific you can get the better)\u000b4. Action to resolve (what has Slalom been asked to do to address the problem?)",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 6.79,
+      "top": 2.01,
+      "width": 1.81,
+      "height": 0.22,
+      "paragraphs": [
+        {
+          "text": "Approach",
+          "font_size": 9.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.63,
+      "top": 3.63,
+      "width": 1.81,
+      "height": 2.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.28
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "How",
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "bold": true,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "This section should focus on the how. Keep it short and sweet and use pull out statistics or quotes to create a more compelling case.",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit \u000binvere nullit et, simporiatium",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit \u000binvere nullit et, simporiatium",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit \u000binvere nullit et, simporiatium",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 2.69,
+      "top": 3.63,
+      "width": 1.81,
+      "height": 2.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.28
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "What",
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "bold": true,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "This section should focus on the what. Keep it short and sweet and use pull out statistics or quotes to create a more compelling case.",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit \u000binvere nullit et, simporiatium",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit \u000binvere nullit et, simporiatium",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit \u000binvere nullit et, simporiatium",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 4.75,
+      "top": 3.63,
+      "width": 1.79,
+      "height": 2.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.28
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Outcome",
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "bold": true,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "This section should focus on the outcome. Keep it short and sweet and use pull out statistics or quotes to \u000bcreate a more compelling case.",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit \u000binvere nullit et, simporiatium",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit \u000binvere nullit et, simporiatium",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit \u000binvere nullit et, simporiatium",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.63,
+      "top": 5.92,
+      "width": 5.91,
+      "height": 0.78,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.12
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Assumptions",
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "bold": true,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "List out any assumptions in this section, pertaining to the estimate, the project, resource availability, system availability, etc.",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit invere nullit et, simporiatium.",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Beremod dunt labo. Et que parit invere nullit et, simporiatium.",
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 6.79,
+      "top": 5.92,
+      "width": 2.76,
+      "height": 0.78,
+      "paragraphs": [
+        {
+          "text": "Slalom Team",
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "bold": true,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "List out the Slalom team",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Title 2",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Title 3",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 10.9,
+      "top": 5.92,
+      "width": 1.79,
+      "height": 0.78,
+      "paragraphs": [
+        {
+          "text": "Investment",
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "bold": true,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Provide details on time \u000bestimates & pricing",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        },
+        {
+          "text": "Optional text",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 8.0,
+          "line_spacing": 8.8
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-12": 0.27,
+          "shape-13": 0.01
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 6.8,
+      "top": 7.03,
+      "width": 1.81,
+      "height": 0.24,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.09
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-11": 0.27
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Firstname Lastname",
+          "font_size": 8.0,
+          "line_spacing": 9.6
+        },
+        {
+          "text": "Title",
+          "font_size": 8.0,
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 8.85,
+      "top": 7.03,
+      "width": 1.81,
+      "height": 0.24,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.09
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-11": 0.01
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Firstname Lastname",
+          "font_size": 8.0,
+          "line_spacing": 9.6
+        },
+        {
+          "text": "Title",
+          "font_size": 8.0,
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 10.91,
+      "top": 7.03,
+      "width": 1.81,
+      "height": 0.24,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.09
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-15": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Firstname Lastname",
+          "font_size": 8.0,
+          "line_spacing": 9.6
+        },
+        {
+          "text": "Title",
+          "font_size": 8.0,
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-14": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "142"
+        }
+      ]
+    }
+  }
+}

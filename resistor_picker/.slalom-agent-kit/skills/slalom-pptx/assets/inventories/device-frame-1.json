@@ -1,0 +1,135 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 13.61,
+      "top": 0.0,
+      "width": 3.37,
+      "height": 3.75,
+      "overflow": {
+        "slide": {
+          "overflow_right": 3.64
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "NOTE",
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "More device options are available in the \u000bassets section",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Formatting images into device frames:",
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "The device frame and the screen image on this page are two separate items. Add a new screen image and ‘Send to Back’ to place it behind the frame. If the image pokes out at the corners, use ‘Crop to Shape’ and select ‘Rounded Rectangle’ to hide the corners.",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 10.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 0.63,
+      "width": 7.97,
+      "height": 1.08,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Device frame slide. \u000bImage to be replaced."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 1.92,
+      "width": 7.97,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "Subtitle necupta ius consequ."
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.62,
+      "top": 3.21,
+      "width": 7.97,
+      "height": 3.67,
+      "placeholder_type": "BODY",
+      "default_font_size": 5.0,
+      "paragraphs": [
+        {
+          "text": "Optional text Beremod maximusaesto dunt labo. \u000bEt  laborum que parit invere nullit et, simporiatium et  \u000bexceatibus sim laborro to doluptiat lorem ipsum \u000bdolores  sit amet adipiscing. Beremod maximusaesto \u000bdunt labo. Et  laborum que parit invere nullit et, \u000bsimporiatium et  exceatibus sim laborro to doluptiat \u000blorem ipsum dolores  sit amet."
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "106"
+        }
+      ]
+    }
+  }
+}

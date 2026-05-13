@@ -1,0 +1,304 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 13.61,
+      "top": 0.0,
+      "width": 3.37,
+      "height": 7.5,
+      "overflow": {
+        "slide": {
+          "overflow_right": 3.64
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "chart INSTRUCTIONS",
+          "space_before": 12.0,
+          "font_size": 9.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "APPLY STYLES\u000bWhen inserting a new graph, \u000b“Style 1” will be applied automatically. \u000bIf inserting a previously designed graph, \u000b“Style 1” should be manually applied \u000b(Chart Design tab > Chart Styles > Style 1)",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Customization steps",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Global: Change Font Color \u000b(Select Entire Chart > \u000bFont Color > “Text 1”)",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Chart Title (Optional): \u000bBold, 14pt (Delete if not needed)",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Gridlines: Remove (Preferred)\u000b(Select > Delete or Clear Check Box)",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Add Data Labels: Bold, 22/14/12/10pt\u000bLabel Position: Inside End or Center\u000bChange Font Color: “White”\u000b(“Text 1” for Cyan, Red, Purple, Chartreuse)",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Note: check “Categories in reverse order” \u000bto flip color order on Bar Charts.",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Format TIPS (Ok to adjust if needed)",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Bar / Column: Series Overlap (0%)\u000bGap width (50%)",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Clustered: Series Overlap (-15%)\u000bGap width (200%)",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Stacked: Series Overlap (100%)\u000bGap width (75%)",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Doughnut: Doughnut Hole Size (70%)",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Line: Change Outline Weight (3pt)",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "USING PATTERNS FOR ACCESSIBILITY",
+          "bullet": true,
+          "level": 0,
+          "space_before": 12.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Accent colors may be difficult to read for those with color blindness. To accommodate these needs, pattern fills may be used as shown on sample slides.",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "From the Format Pane, select “Pattern fill” and select a pattern from the options",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Use a theme row accent color for the “background” and a coordinating shade from the custom color rows as the “foreground.”",
+          "bullet": true,
+          "level": 1,
+          "space_before": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 0.62,
+      "width": 12.08,
+      "height": 0.89,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Waterfall chart"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 1.92,
+      "width": 12.08,
+      "height": 0.5,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "paragraphs": [
+        {
+          "text": "Chart title"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.62,
+      "top": 5.79,
+      "width": 2.83,
+      "height": 1.08,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "paragraphs": [
+        {
+          "text": "Subheadline",
+          "bold": true
+        },
+        {
+          "text": "Beremod maximusaesto dunt labo.  Et laborum que parit invere nullit et, simporiatium et exceatibus sim."
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 3.71,
+      "top": 5.79,
+      "width": 2.83,
+      "height": 1.08,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "paragraphs": [
+        {
+          "text": "Subheadline",
+          "bold": true
+        },
+        {
+          "text": "Beremod maximusaesto dunt labo.  Et laborum que parit invere nullit et, simporiatium et exceatibus sim."
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 6.79,
+      "top": 5.79,
+      "width": 2.83,
+      "height": 1.08,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "paragraphs": [
+        {
+          "text": "Subheadline",
+          "bold": true
+        },
+        {
+          "text": "Beremod maximusaesto dunt labo.  Et laborum que parit invere nullit et, simporiatium et exceatibus sim."
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 9.87,
+      "top": 5.79,
+      "width": 2.83,
+      "height": 1.08,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "paragraphs": [
+        {
+          "text": "Subheadline",
+          "bold": true
+        },
+        {
+          "text": "Beremod maximusaesto dunt labo.  Et laborum que parit invere nullit et, simporiatium et exceatibus sim."
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "120"
+        }
+      ]
+    }
+  }
+}

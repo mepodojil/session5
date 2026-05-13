@@ -1,0 +1,79 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.62,
+      "width": 3.87,
+      "height": 0.38,
+      "placeholder_type": "BODY",
+      "default_font_size": 6.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 0.43
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Deck type"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 0.89,
+      "width": 3.87,
+      "height": 0.38,
+      "placeholder_type": "BODY",
+      "default_font_size": 6.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-0": 0.43
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "XX month year"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 1.94,
+      "width": 3.87,
+      "height": 3.61,
+      "placeholder_type": "CENTER_TITLE",
+      "default_font_size": 54.0,
+      "paragraphs": [
+        {
+          "text": "Cover slide with image"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.62,
+      "top": 5.8,
+      "width": 3.86,
+      "height": 0.31,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 14.0,
+      "paragraphs": [
+        {
+          "text": "Subhead"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.62,
+      "top": 6.17,
+      "width": 3.86,
+      "height": 0.7,
+      "placeholder_type": "BODY",
+      "default_font_size": 6.0,
+      "paragraphs": [
+        {
+          "text": "Descriptive subhead copy goes \u000bhere lorem ipsum dolor sit amet, \u000bconsectetuer adipiscing elit."
+        }
+      ]
+    }
+  }
+}

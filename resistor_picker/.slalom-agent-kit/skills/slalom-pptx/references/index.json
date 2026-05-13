@@ -1,0 +1,1854 @@
+{
+  "schema": "slalom-pptx-index/v1",
+  "master_sha256": "fddf93e8c0555149ba2d87145259091c4bace60f8695f3d0bb8964366a93b019",
+  "master_path": "assets/master/Slalom Template document.pptx",
+  "slides_idx_convention": "0-based",
+  "vendored_from": {
+    "legacy_pptx_skill_commit": "69c0b1a0674149f27b61b2635f935524b6add202",
+    "modern_pptx_skill_commit": "d230a6dd6eb1a0dbee9fec55e2f00a96e28dff81",
+    "patches_to_legacy": [
+      "#5 chmod after copy in rearrange.py (defends against read-only master)",
+      "#6 inventory.py overflow detector now prefers layout defRPr over master bodyStyle",
+      "#7 replace.py text_frame.clear() gated on shape membership in replacements",
+      "#8 replace.py splits run text on \\x0b and emits <a:br/> so soft line breaks survive serialization (no more _x000B_ literals)",
+      "#9 inventory.py no longer filters SLIDE_NUMBER placeholders; they are editable per Workflow A's contract",
+      "#10 replace.py auto-fills SLIDE_NUMBER placeholders with the slide's actual deck position when the JSON omits them",
+      "#11 replace.py overflow errors now name the placeholder_type and include a 30-char preview of the master text"
+    ],
+    "vendor_path": "scripts/vendor"
+  },
+  "brand": {
+    "colors": [
+      {
+        "scheme": "dk1",
+        "hex": "#000000",
+        "slalom_name": "Black",
+        "role": "Text/foreground"
+      },
+      {
+        "scheme": "dk2",
+        "hex": "#666666",
+        "slalom_name": "Dark Gray",
+        "role": "Secondary text"
+      },
+      {
+        "scheme": "lt2",
+        "hex": "#E6E6E6",
+        "slalom_name": "Light Gray",
+        "role": "Secondary background"
+      },
+      {
+        "scheme": "accent1",
+        "hex": "#0C62FB",
+        "slalom_name": "Slalom Blue",
+        "role": "Primary accent"
+      },
+      {
+        "scheme": "accent2",
+        "hex": "#002FAF",
+        "slalom_name": "Dark Blue",
+        "role": "Secondary accent"
+      },
+      {
+        "scheme": "accent3",
+        "hex": "#1BE1F2",
+        "slalom_name": "Cyan",
+        "role": "Accent 3"
+      },
+      {
+        "scheme": "accent4",
+        "hex": "#FF4D5F",
+        "slalom_name": "Coral Red",
+        "role": "Accent 4"
+      },
+      {
+        "scheme": "accent5",
+        "hex": "#C7B9FF",
+        "slalom_name": "Purple",
+        "role": "Accent 5"
+      },
+      {
+        "scheme": "accent6",
+        "hex": "#DEFF4D",
+        "slalom_name": "Chartreuse",
+        "role": "Accent 6"
+      },
+      {
+        "scheme": "hlink",
+        "hex": "#0C62FB",
+        "slalom_name": "Slalom Blue",
+        "role": "Hyperlink"
+      },
+      {
+        "scheme": "folHlink",
+        "hex": "#0C62FB",
+        "slalom_name": "Slalom Blue",
+        "role": "Followed hyperlink"
+      }
+    ],
+    "font_body": "+mn-lt",
+    "font_heading": "+mj-lt",
+    "footer": "Slalom. All Rights Reserved. Proprietary and Confidential.",
+    "date_format": "yyyy",
+    "date_max_chars": 4,
+    "body_slide_required_fills": {
+      "DATE": "deck year in brand.date_format (master DATE placeholder is ~0.28\" wide; longer formats wrap or clip)",
+      "FOOTER": "exact text from brand.footer",
+      "SLIDE_NUMBER": "slide's actual deck position as plain text (master ships hardcoded; not a dynamic field)"
+    }
+  },
+  "slides": [
+    {
+      "name": "cover-basic",
+      "idx": 13,
+      "category": "covers",
+      "when_to_use": "Clean text-only deck opener with title + subtitle.",
+      "key_shapes": [
+        "3x body",
+        "center_title"
+      ],
+      "inventory_path": "assets/inventories/cover-basic.json"
+    },
+    {
+      "name": "cover-basic-alt",
+      "idx": 14,
+      "category": "covers",
+      "when_to_use": "Alternate basic cover. Use when the deck needs a second opener (back cover, section).",
+      "key_shapes": [
+        "3x body",
+        "center_title"
+      ],
+      "inventory_path": "assets/inventories/cover-basic-alt.json"
+    },
+    {
+      "name": "cover-partner",
+      "idx": 15,
+      "category": "covers",
+      "when_to_use": "Opener co-branded with a partner (logo slot included). Use for joint-venture or alliance decks.",
+      "key_shapes": [
+        "3x body",
+        "center_title",
+        "subtitle"
+      ],
+      "inventory_path": "assets/inventories/cover-partner.json"
+    },
+    {
+      "name": "cover-partner-alt",
+      "idx": 16,
+      "category": "covers",
+      "when_to_use": "Co-branded cover on white with a yellow accent stripe at left and partner-logo slot. Use when cover-partner's blue-heavy treatment feels too dense or formal \u2014 the white field reads as more open and consultative.",
+      "key_shapes": [
+        "3x body",
+        "center_title",
+        "subtitle"
+      ],
+      "inventory_path": "assets/inventories/cover-partner-alt.json"
+    },
+    {
+      "name": "cover-image",
+      "idx": 17,
+      "category": "covers",
+      "when_to_use": "Cover with a full-bleed image area on the right. The default master image is generic; swap via Workflow C if the photo doesn't match your context. Use when visuals set the tone and you want a custom photo, not stock.",
+      "key_shapes": [
+        "3x body",
+        "center_title",
+        "subtitle"
+      ],
+      "inventory_path": "assets/inventories/cover-image.json"
+    },
+    {
+      "name": "cover-image-2",
+      "idx": 18,
+      "category": "covers",
+      "when_to_use": "Image cover with a warm sunrise / mountain-silhouette photo. Use for nature, sustainability, journey, or new-beginning themes \u2014 the warm tone contrasts with the rest of the cover-image set, which is mostly cool blue.",
+      "key_shapes": [
+        "3x body",
+        "center_title",
+        "subtitle"
+      ],
+      "inventory_path": "assets/inventories/cover-image-2.json"
+    },
+    {
+      "name": "cover-image-3",
+      "idx": 19,
+      "category": "covers",
+      "when_to_use": "Image cover with a blue blurred-motion transit photo. Use for momentum, transformation, speed-of-change, or transit/logistics themes.",
+      "key_shapes": [
+        "3x body",
+        "center_title",
+        "subtitle"
+      ],
+      "inventory_path": "assets/inventories/cover-image-3.json"
+    },
+    {
+      "name": "cover-image-4",
+      "idx": 20,
+      "category": "covers",
+      "when_to_use": "Image cover with a blue circuit-board pattern. Use for technology, infrastructure, platform, or systems-engineering themes \u2014 pattern reads as 'large-scale, designed'.",
+      "key_shapes": [
+        "3x body",
+        "center_title",
+        "subtitle"
+      ],
+      "inventory_path": "assets/inventories/cover-image-4.json"
+    },
+    {
+      "name": "cover-image-5",
+      "idx": 21,
+      "category": "covers",
+      "when_to_use": "Image cover with a blue microchip / circuitry close-up. Use for hardware, semiconductors, low-level computing, or precision-engineering themes \u2014 closer crop than cover-image-4 reads as 'detail, expertise'.",
+      "key_shapes": [
+        "3x body",
+        "center_title",
+        "subtitle"
+      ],
+      "inventory_path": "assets/inventories/cover-image-5.json"
+    },
+    {
+      "name": "cover-image-6",
+      "idx": 22,
+      "category": "covers",
+      "when_to_use": "Image cover with a blue solar-panel / clean-energy pattern. Use for sustainability, clean-energy, ESG, or climate themes \u2014 the only cover-image variant with explicit renewable-energy imagery.",
+      "key_shapes": [
+        "3x body",
+        "center_title",
+        "subtitle"
+      ],
+      "inventory_path": "assets/inventories/cover-image-6.json"
+    },
+    {
+      "name": "partner-logo-lockup-1",
+      "idx": 170,
+      "category": "covers",
+      "when_to_use": "Partner logo lockup on a white field with a single partner column and a blue gradient accent. Use as a 'deck featuring partner X' opener when one alliance is the headline.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/partner-logo-lockup-1.json"
+    },
+    {
+      "name": "partner-logo-lockup-2",
+      "idx": 171,
+      "category": "covers",
+      "when_to_use": "Partner logo lockup with a multi-partner grid (about a dozen logos) on a white-to-blue gradient. Use when the deck speaks to a portfolio of alliances rather than one named partner.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/partner-logo-lockup-2.json"
+    },
+    {
+      "name": "partner-logo-lockup-3",
+      "idx": 172,
+      "category": "covers",
+      "when_to_use": "Partner logo lockup with a denser multi-partner grid in a more uniform layout. Use for industry-coalition or partner-program decks where the count of partners is the story.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/partner-logo-lockup-3.json"
+    },
+    {
+      "name": "contents",
+      "idx": 23,
+      "category": "navigation",
+      "when_to_use": "Table of contents. Lists chapters before diving in.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/contents.json"
+    },
+    {
+      "name": "contents-alt",
+      "idx": 24,
+      "category": "navigation",
+      "when_to_use": "Numbered table-of-contents with right-aligned page numbers, book-style. Use when the deck has discrete numbered chapters and the audience needs an at-a-glance map; pick `contents` for a more visual TOC.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/contents-alt.json"
+    },
+    {
+      "name": "agenda",
+      "idx": 25,
+      "category": "navigation",
+      "when_to_use": "Meeting agenda with time-boxed items.",
+      "key_shapes": [
+        "title",
+        "body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/agenda.json"
+    },
+    {
+      "name": "agenda-summary",
+      "idx": 26,
+      "category": "navigation",
+      "when_to_use": "'Summarize your agenda' framing slide. Use when agenda is more narrative than time-boxed.",
+      "key_shapes": [
+        "title",
+        "\"Not all agendas are bullet lis...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/agenda-summary.json"
+    },
+    {
+      "name": "overview",
+      "idx": 27,
+      "category": "navigation",
+      "when_to_use": "Presentation overview with subheadline blocks. Primes the audience on what follows.",
+      "key_shapes": [
+        "title",
+        "body",
+        "\"Presentation contents\"",
+        "4x \"Optional subheadline\"",
+        "\"\u00a9\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/overview.json"
+    },
+    {
+      "name": "our-understanding",
+      "idx": 28,
+      "category": "navigation",
+      "when_to_use": "'Our understanding' framing slide. Use to demonstrate you've heard the client's situation before pitching.",
+      "key_shapes": [
+        "title",
+        "body",
+        "3x \"One line subheadline\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/our-understanding.json"
+    },
+    {
+      "name": "together-intro",
+      "idx": 29,
+      "category": "navigation",
+      "when_to_use": "'Together, we've created great things' partnership intro. Use for established-client check-ins or extension pitches.",
+      "key_shapes": [
+        "title",
+        "body",
+        "\"2019\"",
+        "\"2020\"",
+        "\"2021\"",
+        "\"2022 and beyond\"",
+        "10x \"Header / Date\u000bLorem ipsum dolo...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/together-intro.json"
+    },
+    {
+      "name": "team-intro",
+      "idx": 30,
+      "category": "navigation",
+      "when_to_use": "Team introduction slide. Use to present the people on the call.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/team-intro.json"
+    },
+    {
+      "name": "team-intro-2",
+      "idx": 31,
+      "category": "navigation",
+      "when_to_use": "Team-intro variant on a white field with light-blue accent (less ink than team-intro). Use when the headshots and bios are the focus and you want minimum visual competition from the slide chrome.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/team-intro-2.json"
+    },
+    {
+      "name": "team-intro-3",
+      "idx": 32,
+      "category": "navigation",
+      "when_to_use": "Team-intro variant with a divided light/dark blue background. Use when the team has two distinct sub-groups (e.g., Slalom team + client team) that benefit from a visual split.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/team-intro-3.json"
+    },
+    {
+      "name": "section-divider",
+      "idx": 33,
+      "category": "navigation",
+      "when_to_use": "Neutral section divider with a small intro-text block under the title. Use when the section break needs a one-line subtitle to set up what follows.",
+      "key_shapes": [
+        "center_title",
+        "5x body"
+      ],
+      "inventory_path": "assets/inventories/section-divider.json"
+    },
+    {
+      "name": "section-divider-alt",
+      "idx": 34,
+      "category": "navigation",
+      "when_to_use": "Full-bleed dark blue section divider with title only (no intro text). Use when you want maximum visual break and the section title speaks for itself.",
+      "key_shapes": [
+        "center_title",
+        "5x body"
+      ],
+      "inventory_path": "assets/inventories/section-divider-alt.json"
+    },
+    {
+      "name": "section-divider-color",
+      "idx": 35,
+      "category": "navigation",
+      "when_to_use": "Full-bleed color divider in Slalom Blue (accent1). High-contrast visual reset. Pick this when the section is the headline color of the deck; pick a -color-N variant when the section maps to a different brand accent.",
+      "key_shapes": [
+        "body",
+        "title"
+      ],
+      "inventory_path": "assets/inventories/section-divider-color.json"
+    },
+    {
+      "name": "section-divider-color-2",
+      "idx": 36,
+      "category": "navigation",
+      "when_to_use": "Full-bleed color divider in Cyan (accent3). Use when the section's theme maps to cyan in your color story (often: data, tech, momentum).",
+      "key_shapes": [
+        "body",
+        "title"
+      ],
+      "inventory_path": "assets/inventories/section-divider-color-2.json"
+    },
+    {
+      "name": "section-divider-color-3",
+      "idx": 37,
+      "category": "navigation",
+      "when_to_use": "Full-bleed color divider in Coral Red (accent4). Use when the section's theme maps to coral red (often: risk, urgency, customer).",
+      "key_shapes": [
+        "body",
+        "title"
+      ],
+      "inventory_path": "assets/inventories/section-divider-color-3.json"
+    },
+    {
+      "name": "section-divider-color-4",
+      "idx": 38,
+      "category": "navigation",
+      "when_to_use": "Full-bleed color divider in Purple (accent5). Use when the section's theme maps to purple (often: people, culture, creative).",
+      "key_shapes": [
+        "body",
+        "title"
+      ],
+      "inventory_path": "assets/inventories/section-divider-color-4.json"
+    },
+    {
+      "name": "section-divider-color-5",
+      "idx": 39,
+      "category": "navigation",
+      "when_to_use": "Full-bleed color divider in Chartreuse (accent6). Use when the section's theme maps to chartreuse (often: growth, sustainability, energy).",
+      "key_shapes": [
+        "body",
+        "title"
+      ],
+      "inventory_path": "assets/inventories/section-divider-color-5.json"
+    },
+    {
+      "name": "section-divider-numbered-1",
+      "idx": 40,
+      "category": "navigation",
+      "when_to_use": "Numbered chapter divider 01 on a solid Slalom Blue background. Use as the first chapter of a long deck; the numbered series 1-5 is intended to be used in order, but the visual treatment varies (1-3 are solid colors, 4-5 are nature photos).",
+      "key_shapes": [
+        "2x body"
+      ],
+      "inventory_path": "assets/inventories/section-divider-numbered-1.json"
+    },
+    {
+      "name": "section-divider-numbered-2",
+      "idx": 41,
+      "category": "navigation",
+      "when_to_use": "Numbered chapter divider 02 with a cyan diagonal pattern. Use as chapter 2 in the numbered series \u2014 pairs with -1's solid blue.",
+      "key_shapes": [
+        "2x body"
+      ],
+      "inventory_path": "assets/inventories/section-divider-numbered-2.json"
+    },
+    {
+      "name": "section-divider-numbered-3",
+      "idx": 42,
+      "category": "navigation",
+      "when_to_use": "Numbered chapter divider 03 on a solid coral red background. Use as chapter 3 in the numbered series \u2014 high-contrast warm tone breaks up the cool-blue feel of -1 and -2.",
+      "key_shapes": [
+        "2x body"
+      ],
+      "inventory_path": "assets/inventories/section-divider-numbered-3.json"
+    },
+    {
+      "name": "section-divider-numbered-4",
+      "idx": 43,
+      "category": "navigation",
+      "when_to_use": "Numbered chapter divider 04 with a purple aerial-clouds photograph. Use as chapter 4 in the numbered series \u2014 visual treatment shifts from solid color to nature photography here.",
+      "key_shapes": [
+        "2x body"
+      ],
+      "inventory_path": "assets/inventories/section-divider-numbered-4.json"
+    },
+    {
+      "name": "section-divider-numbered-5",
+      "idx": 44,
+      "category": "navigation",
+      "when_to_use": "Numbered chapter divider 05 with a green farmland aerial photograph. Use as the final chapter (5) in the numbered series \u2014 completes the photo-pair with -4 for a closing nature beat.",
+      "key_shapes": [
+        "2x body"
+      ],
+      "inventory_path": "assets/inventories/section-divider-numbered-5.json"
+    },
+    {
+      "name": "bio-card",
+      "idx": 121,
+      "category": "navigation",
+      "when_to_use": "Single-person bio card with name, pronouns slot, and headshot area. Use for individual speaker intros.",
+      "key_shapes": [
+        "\"READ ME THEN DELETE ME\"",
+        "\"Example consultant profile\"",
+        "5x body",
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/bio-card.json"
+    },
+    {
+      "name": "content-2col",
+      "idx": 59,
+      "category": "content",
+      "when_to_use": "Two-column compare/contrast (Pros/Cons labels). Good for trade-off slides.",
+      "key_shapes": [
+        "title",
+        "body",
+        "\"Pros\"",
+        "\"Cons\"",
+        "2x \"A paragraph or bullet goes her...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/content-2col.json"
+    },
+    {
+      "name": "content-3col",
+      "idx": 61,
+      "category": "content",
+      "when_to_use": "Three-column layout for feature triads or parallel arguments.",
+      "key_shapes": [
+        "title",
+        "2x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/content-3col.json"
+    },
+    {
+      "name": "content-body",
+      "idx": 69,
+      "category": "content",
+      "when_to_use": "Standard content slide with a title and rich body area (~5 sub-blocks).",
+      "key_shapes": [
+        "title",
+        "7x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/content-body.json"
+    },
+    {
+      "name": "content-large",
+      "idx": 88,
+      "category": "content",
+      "when_to_use": "Dense single-slide summary with 5 body panels. Use when packing a lot onto one page.",
+      "key_shapes": [
+        "title",
+        "7x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/content-large.json"
+    },
+    {
+      "name": "table",
+      "idx": 90,
+      "category": "content",
+      "when_to_use": "Plain table layout for tabular data. Use when you need rows-and-columns without the side-by-side comparison framing.",
+      "key_shapes": [
+        "\"READ ME THEN DELETE ME\"",
+        "\"Optional chart icons\"",
+        "title",
+        "body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/table.json"
+    },
+    {
+      "name": "comparison-table",
+      "idx": 91,
+      "category": "content",
+      "when_to_use": "Comparison table layout. Use for feature-by-feature, vendor-by-vendor, or option matrices.",
+      "key_shapes": [
+        "title",
+        "body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/comparison-table.json"
+    },
+    {
+      "name": "pricing",
+      "idx": 99,
+      "category": "content",
+      "when_to_use": "Pricing table for rate cards or plan tiers.",
+      "key_shapes": [
+        "title",
+        "body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/pricing.json"
+    },
+    {
+      "name": "cost-estimate",
+      "idx": 100,
+      "category": "content",
+      "when_to_use": "Cost estimate with a team-structure breakdown. Use for staffing + cost proposals.",
+      "key_shapes": [
+        "title",
+        "body",
+        "\"Team Structure\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/cost-estimate.json"
+    },
+    {
+      "name": "at-a-glance",
+      "idx": 138,
+      "category": "content",
+      "when_to_use": "Dense executive 'At a glance' one-pager with ~22 slots for stats, callouts, and metrics. Use as a high-density summary.",
+      "key_shapes": [
+        "title",
+        "15x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/at-a-glance.json"
+    },
+    {
+      "name": "short-headline",
+      "idx": 139,
+      "category": "content",
+      "when_to_use": "Short-headline overview with two-line title + body. Use for terse 'state of X' summaries.",
+      "key_shapes": [
+        "title",
+        "8x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/short-headline.json"
+    },
+    {
+      "name": "chevron-4",
+      "idx": 92,
+      "category": "process-timeline",
+      "when_to_use": "Four-step chevron with bullet list under each step. Real CHEVRON auto-shapes; sequential left-to-right flow with multi-line detail per step.",
+      "key_shapes": [
+        "title",
+        "body",
+        "4x \"Sample text\"",
+        "4x \"Optional Subheadline\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chevron-4.json"
+    },
+    {
+      "name": "bullets-4-cols",
+      "idx": 93,
+      "category": "process-timeline",
+      "when_to_use": "Four-column bullets layout with horizontal divider bars at the top. Use for parallel multi-bullet content without implying sequential flow. (Not a chevron despite the master title 'Chevron process'.)",
+      "key_shapes": [
+        "title",
+        "body",
+        "4x \"Optional Subheadline\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/bullets-4-cols.json"
+    },
+    {
+      "name": "process-visual",
+      "idx": 95,
+      "category": "process-timeline",
+      "when_to_use": "Pipeline/intake flow with a TARGET endpoint (reactive intake -> pursuit -> engagement).",
+      "key_shapes": [
+        "title",
+        "body",
+        "\"TARGET\"",
+        "\"Reactive Intake\"",
+        "\"Pursuit\"",
+        "\"Initial engagement\"",
+        "\"Portfolio \u2013 \u000bKey Account\"",
+        "4x \"Bulleted list example\"",
+        "\"Prioritize by # of yes answers\"",
+        "\"Proactive \u000bAccount Intake\"",
+        "\"Sales Executive\"",
+        "3x \"Team involvement text\"",
+        "3x \"Timeframe text\"",
+        "2x \"Market Focus: Lorem Ipsum\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/process-visual.json"
+    },
+    {
+      "name": "gantt-chart",
+      "idx": 94,
+      "category": "process-timeline",
+      "when_to_use": "Gantt chart with swim-lanes and go-live milestones. Use for multi-track delivery plans.",
+      "key_shapes": [
+        "title",
+        "body",
+        "\"Dash 1 Go-Live\"",
+        "\"Dash 2 Go-Live\"",
+        "\"Dash 3 Go-Live\"",
+        "\"Dash 4-5 Go-Live\"",
+        "\"Risk Gate 1\"",
+        "\"Risk Gate 2\"",
+        "\"Risk Gate 3\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/gantt-chart.json"
+    },
+    {
+      "name": "timeline-weekly",
+      "idx": 96,
+      "category": "process-timeline",
+      "when_to_use": "Weekly timeline (short horizon). Use for sprint or cadence plans.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/timeline-weekly.json"
+    },
+    {
+      "name": "timeline-8week",
+      "idx": 97,
+      "category": "process-timeline",
+      "when_to_use": "Eight-week timeline. Use for pilots or phase-0 engagements.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/timeline-8week.json"
+    },
+    {
+      "name": "timeline-quarterly",
+      "idx": 98,
+      "category": "process-timeline",
+      "when_to_use": "Quarterly roadmap with sprints and releases. Use for quarter+ horizons.",
+      "key_shapes": [
+        "title",
+        "4x \"Development Sprints\"",
+        "3x \"Enhance and Operate\"",
+        "3x \"Release\"",
+        "\"Deliverables\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/timeline-quarterly.json"
+    },
+    {
+      "name": "flowchart",
+      "idx": 113,
+      "category": "process-timeline",
+      "when_to_use": "Branching flowchart with decision points. Use for approval trees or conditional logic.",
+      "key_shapes": [
+        "title",
+        "2x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/flowchart.json"
+    },
+    {
+      "name": "diagram-3-icons",
+      "idx": 101,
+      "category": "diagrams",
+      "when_to_use": "Hub-and-spoke with 3 icon-labeled concepts around a center. Use for 3-part frameworks.",
+      "key_shapes": [
+        "title",
+        "body",
+        "3x \"Subheadline\"",
+        "\"Diagram title\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/diagram-3-icons.json"
+    },
+    {
+      "name": "diagram-4-icons",
+      "idx": 102,
+      "category": "diagrams",
+      "when_to_use": "Hub-and-spoke with 4 icon-labeled concepts. Use for 4-quadrant or 4-pillar models.",
+      "key_shapes": [
+        "title",
+        "body",
+        "4x \"Subheadline\"",
+        "\"Diagram title\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/diagram-4-icons.json"
+    },
+    {
+      "name": "diagram-5-icons",
+      "idx": 103,
+      "category": "diagrams",
+      "when_to_use": "Hub-and-spoke with 5 icon-labeled concepts.",
+      "key_shapes": [
+        "title",
+        "body",
+        "5x \"Subheadline\"",
+        "\"Diagram title\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/diagram-5-icons.json"
+    },
+    {
+      "name": "diagram-6-icons",
+      "idx": 104,
+      "category": "diagrams",
+      "when_to_use": "Hub-and-spoke with 6 icons in a 3x2 grid around a central label. Strong choice for single-slide one-pagers with 6 items.",
+      "key_shapes": [
+        "title",
+        "body",
+        "6x \"Subheadline\"",
+        "\"Diagram title\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/diagram-6-icons.json"
+    },
+    {
+      "name": "venn-diagram",
+      "idx": 114,
+      "category": "diagrams",
+      "when_to_use": "Three-circle Venn showing overlap between 3 groups. Use for role or capability intersections.",
+      "key_shapes": [
+        "title",
+        "3x \"Item 1\"",
+        "\"TEAM 1\"",
+        "\"TEAM 2\"",
+        "\"TEAM 3\"",
+        "\"Optional text Beremod maximusa...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/venn-diagram.json"
+    },
+    {
+      "name": "chart-bar",
+      "idx": 109,
+      "category": "charts",
+      "when_to_use": "Single-series bar graph. Use for ranked comparisons across categories.",
+      "key_shapes": [
+        "title",
+        "2x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chart-bar.json"
+    },
+    {
+      "name": "chart-bar-grouped",
+      "idx": 110,
+      "category": "charts",
+      "when_to_use": "Grouped bar graph (multiple labels per row). Use for multi-series ranked comparisons.",
+      "key_shapes": [
+        "title",
+        "5x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chart-bar-grouped.json"
+    },
+    {
+      "name": "chart-bar-multi",
+      "idx": 111,
+      "category": "charts",
+      "when_to_use": "Multi-series bar graph with several bars stacked horizontally per category. Use when you have 3+ series across a few categories (e.g., quarterly KPI trends across 4 metrics) \u2014 denser than chart-bar-grouped, less paired-comparison than chart-bar-comparison.",
+      "key_shapes": [
+        "title",
+        "4x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chart-bar-multi.json"
+    },
+    {
+      "name": "chart-bar-comparison",
+      "idx": 112,
+      "category": "charts",
+      "when_to_use": "Side-by-side comparison bar graph. Use to contrast two or more groups directly.",
+      "key_shapes": [
+        "title",
+        "5x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chart-bar-comparison.json"
+    },
+    {
+      "name": "chart-pie",
+      "idx": 115,
+      "category": "charts",
+      "when_to_use": "Pie chart. Use for share-of-total at a glance (small N segments).",
+      "key_shapes": [
+        "title",
+        "\"Subtitle necupta ius consequ o...\"",
+        "\"Optional subheadline\"",
+        "\"Beremod maximusaesto dunt labo...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chart-pie.json"
+    },
+    {
+      "name": "chart-doughnut",
+      "idx": 116,
+      "category": "charts",
+      "when_to_use": "Doughnut chart. Modern alternative to a pie chart with center text space.",
+      "key_shapes": [
+        "title",
+        "\"Subtitle necupta ius consequ o...\"",
+        "\"Optional subheadline\"",
+        "\"Item one\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chart-doughnut.json"
+    },
+    {
+      "name": "chart-doughnut-comparison",
+      "idx": 117,
+      "category": "charts",
+      "when_to_use": "Three doughnut charts side-by-side with subheadlines under each. Use for before/middle/after share-of-total comparisons or three-scenario projections; pick chart-doughnut for a single ring with center text.",
+      "key_shapes": [
+        "title",
+        "4x \"Subheadline\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chart-doughnut-comparison.json"
+    },
+    {
+      "name": "chart-line",
+      "idx": 118,
+      "category": "charts",
+      "when_to_use": "Line graph. Use for time-series trends.",
+      "key_shapes": [
+        "title",
+        "2x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chart-line.json"
+    },
+    {
+      "name": "chart-waterfall",
+      "idx": 119,
+      "category": "charts",
+      "when_to_use": "Waterfall chart. Use for cost build-ups, budget walks, or running totals.",
+      "key_shapes": [
+        "title",
+        "5x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chart-waterfall.json"
+    },
+    {
+      "name": "chart-stacked-column",
+      "idx": 120,
+      "category": "charts",
+      "when_to_use": "Stacked column graph. Use for parts-of-whole over multiple time periods or categories.",
+      "key_shapes": [
+        "title",
+        "2x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/chart-stacked-column.json"
+    },
+    {
+      "name": "device-frame-1",
+      "idx": 105,
+      "category": "devices-storytelling",
+      "when_to_use": "Device frame layout 1 (image-to-be-replaced). Use for screenshots/mockups in a device shell. Body placeholder is 7.97\" wide but the right ~1.5\" sits behind the iPhone PICTURE shape (z-ordered above text); keep body copy under ~6.5\" effective width or it disappears behind the device.",
+      "key_shapes": [
+        "\"NOTE\"",
+        "title",
+        "2x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/device-frame-1.json"
+    },
+    {
+      "name": "device-frame-2",
+      "idx": 106,
+      "category": "devices-storytelling",
+      "when_to_use": "Device frame layout 2. Same iPhone-overlay constraint as device-frame-1: keep body copy under ~6.5\" effective width.",
+      "key_shapes": [
+        "\"NOTE\"",
+        "title",
+        "2x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/device-frame-2.json"
+    },
+    {
+      "name": "device-frame-3",
+      "idx": 107,
+      "category": "devices-storytelling",
+      "when_to_use": "Device frame layout 3. Same iPhone-overlay constraint as device-frame-1: keep body copy under ~6.5\" effective width.",
+      "key_shapes": [
+        "\"NOTE\"",
+        "title",
+        "body",
+        "\"Optional text Beremod maximusa...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/device-frame-3.json"
+    },
+    {
+      "name": "device-frame-4",
+      "idx": 108,
+      "category": "devices-storytelling",
+      "when_to_use": "Device frame layout 4. Same iPhone-overlay constraint as device-frame-1: keep body copy under ~6.5\" effective width.",
+      "key_shapes": [
+        "\"NOTE\"",
+        "title",
+        "2x body",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/device-frame-4.json"
+    },
+    {
+      "name": "storytelling-intro",
+      "idx": 133,
+      "category": "devices-storytelling",
+      "when_to_use": "'Storytelling Templates' section opener. Use to introduce a customer-outcome chapter.",
+      "key_shapes": [
+        "\"01\"",
+        "\"Customer permission\"",
+        "title",
+        "\"02\"",
+        "\"Photography & icons\"",
+        "\"Looking for more storytelling ...\"",
+        "\"03\"",
+        "\"Resources\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/storytelling-intro.json"
+    },
+    {
+      "name": "customer-outcome-1",
+      "idx": 134,
+      "category": "devices-storytelling",
+      "when_to_use": "Customer-outcome storytelling layout 1. Headline highlights the outcome; supporting blocks for context, action, result.",
+      "key_shapes": [
+        "title",
+        "8x body",
+        "\"80%\"",
+        "\"23\"",
+        "\"12\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/customer-outcome-1.json"
+    },
+    {
+      "name": "customer-outcome-2",
+      "idx": 135,
+      "category": "devices-storytelling",
+      "when_to_use": "Customer-outcome layout with a customer quote as the hero. Photo right, headline + body left, large pull quote across the top. Use when a verbatim customer voice is the most compelling proof point.",
+      "key_shapes": [
+        "title",
+        "8x body",
+        "\"\u201c\"",
+        "\"Customer quote\u00a0Um\u00a0ipsae\u00a0susant...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/customer-outcome-2.json"
+    },
+    {
+      "name": "customer-outcome-3",
+      "idx": 136,
+      "category": "devices-storytelling",
+      "when_to_use": "Customer-outcome layout with three sub-headline blocks pairing description and supporting detail. Photo left, structured body right. Use when the outcome has multiple dimensions (technology, scale, partners) you want to call out individually.",
+      "key_shapes": [
+        "title",
+        "8x body",
+        "\"Connecting with and \u000benabling ...\"",
+        "\"Seamless connectivity with \u000ba ...\"",
+        "\"Leading\u00a0\u000btechnologies\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/customer-outcome-3.json"
+    },
+    {
+      "name": "customer-outcome-4",
+      "idx": 137,
+      "category": "devices-storytelling",
+      "when_to_use": "Customer-outcome layout with an explicit Solutions / Cloud Provider stamp and supporting body. Photo left (people working), body right with stats and labeled solution callouts. Use when the cloud platform / technology vendor partnership is part of the outcome story.",
+      "key_shapes": [
+        "title",
+        "8x body",
+        "\"Solutions\"",
+        "\"Cloud Provider: Azure\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/customer-outcome-4.json"
+    },
+    {
+      "name": "spro-cover",
+      "idx": 140,
+      "category": "devices-storytelling",
+      "when_to_use": "Single Page Response Overview (SPRO) cover. Use as the opener for a one-page proposal response.",
+      "key_shapes": [
+        "\"What is it\"",
+        "title",
+        "\"SPRO TEMPLATE\"",
+        "\"When to use it\"",
+        "\"Looking for more SPRO template...\"",
+        "\"When not to use it\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/spro-cover.json"
+    },
+    {
+      "name": "spro-template",
+      "idx": 141,
+      "category": "devices-storytelling",
+      "when_to_use": "SPRO content template. Use for the body of a one-page proposal.",
+      "key_shapes": [
+        "title",
+        "\"Date  |  Client Name\"",
+        "\"Business Need\"",
+        "\"Approach\"",
+        "\"How\"",
+        "\"What\"",
+        "\"Outcome\"",
+        "\"Assumptions\"",
+        "\"Slalom Team\"",
+        "\"Investment\"",
+        "date",
+        "footer",
+        "3x \"Firstname Lastname\"",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/spro-template.json"
+    },
+    {
+      "name": "about-slalom-1",
+      "idx": 144,
+      "category": "devices-storytelling",
+      "when_to_use": "About Slalom boilerplate slide 1. Use to introduce the firm to a new client.",
+      "key_shapes": [
+        "\"READ ME THEN DELETE ME\"",
+        "\"As of January 2024. Visit the ...\"",
+        "title",
+        "\"Slalom is a purpose-led, globa...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/about-slalom-1.json"
+    },
+    {
+      "name": "about-slalom-2",
+      "idx": 145,
+      "category": "devices-storytelling",
+      "when_to_use": "About-Slalom boilerplate with one named partner column alongside the firm description. Use when introducing a deck co-authored or co-delivered with a single named partner.",
+      "key_shapes": [
+        "\"READ ME THEN DELETE MEz\"",
+        "\"As of January 2024. Visit the ...\"",
+        "title",
+        "\"About (partner name)\"",
+        "\"Slalom is a purpose-led, globa...\"",
+        "\"Lorem ipsum dolor sit amet, co...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/about-slalom-2.json"
+    },
+    {
+      "name": "about-slalom-3",
+      "idx": 146,
+      "category": "devices-storytelling",
+      "when_to_use": "About-Slalom boilerplate with two named partner columns alongside the firm description. Use for joint pitches involving two partners (e.g., Slalom + cloud provider + ISV).",
+      "key_shapes": [
+        "\"READ ME THEN DELETE MEz\"",
+        "\"As of January 2024. Visit the ...\"",
+        "title",
+        "2x \"About (partner name)\"",
+        "\"Slalom is a purpose-led, globa...\"",
+        "2x \"Lorem ipsum dolor sit amet, co...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/about-slalom-3.json"
+    },
+    {
+      "name": "about-slalom-4",
+      "idx": 147,
+      "category": "devices-storytelling",
+      "when_to_use": "About-Slalom boilerplate with three named partner columns. Use when the alliance / coalition itself is the narrative and three partners need equal billing alongside Slalom.",
+      "key_shapes": [
+        "\"READ ME THEN DELETE MEz\"",
+        "\"As of January 2024. Visit the ...\"",
+        "title",
+        "3x \"About (partner name)\"",
+        "\"Slalom is a purpose-led, globa...\"",
+        "3x \"Lorem ipsum dolor sit amet, co...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/about-slalom-4.json"
+    },
+    {
+      "name": "quote",
+      "idx": 129,
+      "category": "closers",
+      "when_to_use": "Pull quote / testimonial slide. Use to spotlight a customer voice or strategic quote.",
+      "key_shapes": [
+        "\"\u201c\"",
+        "\"Shorter quote format. No more ...\"",
+        "\"Firstname  Lastname\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/quote.json"
+    },
+    {
+      "name": "quote-2",
+      "idx": 130,
+      "category": "closers",
+      "when_to_use": "Pull-quote on white with attribution above and a large blue headline-style quote below. Use for a short, high-impact quote (3-5 lines) where the words should dominate the slide.",
+      "key_shapes": [
+        "\"\u201c\"",
+        "\"Shorter quote format. No more ...\"",
+        "\"Firstname  Lastname\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/quote-2.json"
+    },
+    {
+      "name": "quote-3",
+      "idx": 131,
+      "category": "closers",
+      "when_to_use": "Pull-quote on white in body text size (smaller than quote-2) with attribution. Use when the quote is longer (multi-paragraph or 6+ lines) and won't fit at headline scale.",
+      "key_shapes": [
+        "\"\u201c\"",
+        "\"Longer quote, format. No more ...\"",
+        "\"Firstname  Lastname\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/quote-3.json"
+    },
+    {
+      "name": "quote-4",
+      "idx": 132,
+      "category": "closers",
+      "when_to_use": "Pull-quote on a Slalom Blue background with white text. Use for the closing quote of a section or deck \u2014 high-contrast color reset signals 'this is the takeaway'.",
+      "key_shapes": [
+        "\"\u201c\"",
+        "\"Longer quote, format. No more ...\"",
+        "\"Firstname  Lastname\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/quote-4.json"
+    },
+    {
+      "name": "closing-connect",
+      "idx": 149,
+      "category": "closers",
+      "when_to_use": "Closing slide listing 5 team contacts. Use as the last content page before copyright.",
+      "key_shapes": [
+        "title",
+        "6x \"Firstname Lastname\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/closing-connect.json"
+    },
+    {
+      "name": "thank-you-1",
+      "idx": 150,
+      "category": "closers",
+      "when_to_use": "Thank-you closer with a winding-road-through-forest stock photo. Use for journey or partnership-continuation themes; swap the photo via Workflow C if a road metaphor doesn't fit your context.",
+      "key_shapes": [
+        "center_title",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/thank-you-1.json"
+    },
+    {
+      "name": "thank-you-2",
+      "idx": 151,
+      "category": "closers",
+      "when_to_use": "Thank-you closer with a person looking out a car window through a landscape. Use for contemplation, perspective, or 'what's next' framings \u2014 more reflective tone than thank-you-1's road.",
+      "key_shapes": [
+        "center_title"
+      ],
+      "inventory_path": "assets/inventories/thank-you-2.json"
+    },
+    {
+      "name": "thank-you-3",
+      "idx": 152,
+      "category": "closers",
+      "when_to_use": "Thank-you closer with a green winding road through hills (different angle from thank-you-1). Use when the road metaphor fits but you want a fresher, less corporate-stock feel.",
+      "key_shapes": [
+        "center_title"
+      ],
+      "inventory_path": "assets/inventories/thank-you-3.json"
+    },
+    {
+      "name": "thank-you-4",
+      "idx": 153,
+      "category": "closers",
+      "when_to_use": "Thank-you closer with a person looking up / daydreaming portrait. Use for aspirational or future-looking closes \u2014 human-focused contrast to the landscape variants 1-3.",
+      "key_shapes": [
+        "center_title"
+      ],
+      "inventory_path": "assets/inventories/thank-you-4.json"
+    },
+    {
+      "name": "thank-you-5",
+      "idx": 154,
+      "category": "closers",
+      "when_to_use": "Thank-you closer on a plain Slalom Blue background, text-only (no photo). Use when no stock imagery fits the deck context \u2014 fastest to brand-correct close, no Workflow C swap needed.",
+      "key_shapes": [
+        "title",
+        "date",
+        "footer"
+      ],
+      "inventory_path": "assets/inventories/thank-you-5.json"
+    },
+    {
+      "name": "copyright",
+      "idx": 156,
+      "category": "closers",
+      "when_to_use": "Copyright / disclaimer final slide. Use as the deck's last page.",
+      "key_shapes": [
+        "title",
+        "\"\u00a92024 Slalom, Inc. All rights ...\"",
+        "date",
+        "footer",
+        "slide_number"
+      ],
+      "inventory_path": "assets/inventories/copyright.json"
+    }
+  ],
+  "icons": [
+    {
+      "name": "alliance",
+      "png_path": "assets/icons/alliance.png",
+      "svg_path": "assets/icons/alliance.svg"
+    },
+    {
+      "name": "award",
+      "png_path": "assets/icons/award.png",
+      "svg_path": "assets/icons/award.svg"
+    },
+    {
+      "name": "bar-chart",
+      "png_path": "assets/icons/bar-chart.png",
+      "svg_path": "assets/icons/bar-chart.svg"
+    },
+    {
+      "name": "beverage",
+      "png_path": "assets/icons/beverage.png",
+      "svg_path": "assets/icons/beverage.svg"
+    },
+    {
+      "name": "book",
+      "png_path": "assets/icons/book.png",
+      "svg_path": "assets/icons/book.svg"
+    },
+    {
+      "name": "cancel",
+      "png_path": "assets/icons/cancel.png",
+      "svg_path": "assets/icons/cancel.svg"
+    },
+    {
+      "name": "celebration",
+      "png_path": "assets/icons/celebration.png",
+      "svg_path": "assets/icons/celebration.svg"
+    },
+    {
+      "name": "chat",
+      "png_path": "assets/icons/chat.png",
+      "svg_path": "assets/icons/chat.svg"
+    },
+    {
+      "name": "check-box",
+      "png_path": "assets/icons/check-box.png",
+      "svg_path": "assets/icons/check-box.svg"
+    },
+    {
+      "name": "choice",
+      "png_path": "assets/icons/choice.png",
+      "svg_path": "assets/icons/choice.svg"
+    },
+    {
+      "name": "cloud-download",
+      "png_path": "assets/icons/cloud-download.png",
+      "svg_path": "assets/icons/cloud-download.svg"
+    },
+    {
+      "name": "cloud-upload",
+      "png_path": "assets/icons/cloud-upload.png",
+      "svg_path": "assets/icons/cloud-upload.svg"
+    },
+    {
+      "name": "cloud",
+      "png_path": "assets/icons/cloud.png",
+      "svg_path": "assets/icons/cloud.svg"
+    },
+    {
+      "name": "coffee",
+      "png_path": "assets/icons/coffee.png",
+      "svg_path": "assets/icons/coffee.svg"
+    },
+    {
+      "name": "customer-service",
+      "png_path": "assets/icons/customer-service.png",
+      "svg_path": "assets/icons/customer-service.svg"
+    },
+    {
+      "name": "data-lake",
+      "png_path": "assets/icons/data-lake.png",
+      "svg_path": "assets/icons/data-lake.svg"
+    },
+    {
+      "name": "document",
+      "png_path": "assets/icons/document.png",
+      "svg_path": "assets/icons/document.svg"
+    },
+    {
+      "name": "down-arrow",
+      "png_path": "assets/icons/down-arrow.png",
+      "svg_path": "assets/icons/down-arrow.svg"
+    },
+    {
+      "name": "download",
+      "png_path": "assets/icons/download.png",
+      "svg_path": "assets/icons/download.svg"
+    },
+    {
+      "name": "education",
+      "png_path": "assets/icons/education.png",
+      "svg_path": "assets/icons/education.svg"
+    },
+    {
+      "name": "engineering-infrastructure",
+      "png_path": "assets/icons/engineering-infrastructure.png",
+      "svg_path": "assets/icons/engineering-infrastructure.svg"
+    },
+    {
+      "name": "finance-government",
+      "png_path": "assets/icons/finance-government.png",
+      "svg_path": "assets/icons/finance-government.svg"
+    },
+    {
+      "name": "flag",
+      "png_path": "assets/icons/flag.png",
+      "svg_path": "assets/icons/flag.svg"
+    },
+    {
+      "name": "gear",
+      "png_path": "assets/icons/gear.png",
+      "svg_path": "assets/icons/gear.svg"
+    },
+    {
+      "name": "growth",
+      "png_path": "assets/icons/growth.png",
+      "svg_path": "assets/icons/growth.svg"
+    },
+    {
+      "name": "healthcare",
+      "png_path": "assets/icons/healthcare.png",
+      "svg_path": "assets/icons/healthcare.svg"
+    },
+    {
+      "name": "home",
+      "png_path": "assets/icons/home.png",
+      "svg_path": "assets/icons/home.svg"
+    },
+    {
+      "name": "hourglass",
+      "png_path": "assets/icons/hourglass.png",
+      "svg_path": "assets/icons/hourglass.svg"
+    },
+    {
+      "name": "integration",
+      "png_path": "assets/icons/integration.png",
+      "svg_path": "assets/icons/integration.svg"
+    },
+    {
+      "name": "laptop",
+      "png_path": "assets/icons/laptop.png",
+      "svg_path": "assets/icons/laptop.svg"
+    },
+    {
+      "name": "left-arrow",
+      "png_path": "assets/icons/left-arrow.png",
+      "svg_path": "assets/icons/left-arrow.svg"
+    },
+    {
+      "name": "light-bulb",
+      "png_path": "assets/icons/light-bulb.png",
+      "svg_path": "assets/icons/light-bulb.svg"
+    },
+    {
+      "name": "lightning-bolt",
+      "png_path": "assets/icons/lightning-bolt.png",
+      "svg_path": "assets/icons/lightning-bolt.svg"
+    },
+    {
+      "name": "line-graph",
+      "png_path": "assets/icons/line-graph.png",
+      "svg_path": "assets/icons/line-graph.svg"
+    },
+    {
+      "name": "location",
+      "png_path": "assets/icons/location.png",
+      "svg_path": "assets/icons/location.svg"
+    },
+    {
+      "name": "lock",
+      "png_path": "assets/icons/lock.png",
+      "svg_path": "assets/icons/lock.svg"
+    },
+    {
+      "name": "love",
+      "png_path": "assets/icons/love.png",
+      "svg_path": "assets/icons/love.svg"
+    },
+    {
+      "name": "mail",
+      "png_path": "assets/icons/mail.png",
+      "svg_path": "assets/icons/mail.svg"
+    },
+    {
+      "name": "market",
+      "png_path": "assets/icons/market.png",
+      "svg_path": "assets/icons/market.svg"
+    },
+    {
+      "name": "mobile",
+      "png_path": "assets/icons/mobile.png",
+      "svg_path": "assets/icons/mobile.svg"
+    },
+    {
+      "name": "monitor",
+      "png_path": "assets/icons/monitor.png",
+      "svg_path": "assets/icons/monitor.svg"
+    },
+    {
+      "name": "mountain-peak",
+      "png_path": "assets/icons/mountain-peak.png",
+      "svg_path": "assets/icons/mountain-peak.svg"
+    },
+    {
+      "name": "network",
+      "png_path": "assets/icons/network.png",
+      "svg_path": "assets/icons/network.svg"
+    },
+    {
+      "name": "news",
+      "png_path": "assets/icons/news.png",
+      "svg_path": "assets/icons/news.svg"
+    },
+    {
+      "name": "options",
+      "png_path": "assets/icons/options.png",
+      "svg_path": "assets/icons/options.svg"
+    },
+    {
+      "name": "organic",
+      "png_path": "assets/icons/organic.png",
+      "svg_path": "assets/icons/organic.svg"
+    },
+    {
+      "name": "people",
+      "png_path": "assets/icons/people.png",
+      "svg_path": "assets/icons/people.svg"
+    },
+    {
+      "name": "pivot",
+      "png_path": "assets/icons/pivot.png",
+      "svg_path": "assets/icons/pivot.svg"
+    },
+    {
+      "name": "pointer-finger",
+      "png_path": "assets/icons/pointer-finger.png",
+      "svg_path": "assets/icons/pointer-finger.svg"
+    },
+    {
+      "name": "presentation",
+      "png_path": "assets/icons/presentation.png",
+      "svg_path": "assets/icons/presentation.svg"
+    },
+    {
+      "name": "progress",
+      "png_path": "assets/icons/progress.png",
+      "svg_path": "assets/icons/progress.svg"
+    },
+    {
+      "name": "pyramid",
+      "png_path": "assets/icons/pyramid.png",
+      "svg_path": "assets/icons/pyramid.svg"
+    },
+    {
+      "name": "rainbow",
+      "png_path": "assets/icons/rainbow.png",
+      "svg_path": "assets/icons/rainbow.svg"
+    },
+    {
+      "name": "refresh",
+      "png_path": "assets/icons/refresh.png",
+      "svg_path": "assets/icons/refresh.svg"
+    },
+    {
+      "name": "retail",
+      "png_path": "assets/icons/retail.png",
+      "svg_path": "assets/icons/retail.svg"
+    },
+    {
+      "name": "right-arrow",
+      "png_path": "assets/icons/right-arrow.png",
+      "svg_path": "assets/icons/right-arrow.svg"
+    },
+    {
+      "name": "roadmap",
+      "png_path": "assets/icons/roadmap.png",
+      "svg_path": "assets/icons/roadmap.svg"
+    },
+    {
+      "name": "scale",
+      "png_path": "assets/icons/scale.png",
+      "svg_path": "assets/icons/scale.svg"
+    },
+    {
+      "name": "science",
+      "png_path": "assets/icons/science.png",
+      "svg_path": "assets/icons/science.svg"
+    },
+    {
+      "name": "search",
+      "png_path": "assets/icons/search.png",
+      "svg_path": "assets/icons/search.svg"
+    },
+    {
+      "name": "security",
+      "png_path": "assets/icons/security.png",
+      "svg_path": "assets/icons/security.svg"
+    },
+    {
+      "name": "shipping",
+      "png_path": "assets/icons/shipping.png",
+      "svg_path": "assets/icons/shipping.svg"
+    },
+    {
+      "name": "shopping-cart",
+      "png_path": "assets/icons/shopping-cart.png",
+      "svg_path": "assets/icons/shopping-cart.svg"
+    },
+    {
+      "name": "smile",
+      "png_path": "assets/icons/smile.png",
+      "svg_path": "assets/icons/smile.svg"
+    },
+    {
+      "name": "speed",
+      "png_path": "assets/icons/speed.png",
+      "svg_path": "assets/icons/speed.svg"
+    },
+    {
+      "name": "stopwatch",
+      "png_path": "assets/icons/stopwatch.png",
+      "svg_path": "assets/icons/stopwatch.svg"
+    },
+    {
+      "name": "strategy",
+      "png_path": "assets/icons/strategy.png",
+      "svg_path": "assets/icons/strategy.svg"
+    },
+    {
+      "name": "sunshine",
+      "png_path": "assets/icons/sunshine.png",
+      "svg_path": "assets/icons/sunshine.svg"
+    },
+    {
+      "name": "target",
+      "png_path": "assets/icons/target.png",
+      "svg_path": "assets/icons/target.svg"
+    },
+    {
+      "name": "technology",
+      "png_path": "assets/icons/technology.png",
+      "svg_path": "assets/icons/technology.svg"
+    },
+    {
+      "name": "telecom",
+      "png_path": "assets/icons/telecom.png",
+      "svg_path": "assets/icons/telecom.svg"
+    },
+    {
+      "name": "thumbs-up",
+      "png_path": "assets/icons/thumbs-up.png",
+      "svg_path": "assets/icons/thumbs-up.svg"
+    },
+    {
+      "name": "travel",
+      "png_path": "assets/icons/travel.png",
+      "svg_path": "assets/icons/travel.svg"
+    },
+    {
+      "name": "trophy",
+      "png_path": "assets/icons/trophy.png",
+      "svg_path": "assets/icons/trophy.svg"
+    },
+    {
+      "name": "unlock",
+      "png_path": "assets/icons/unlock.png",
+      "svg_path": "assets/icons/unlock.svg"
+    },
+    {
+      "name": "up-arrow",
+      "png_path": "assets/icons/up-arrow.png",
+      "svg_path": "assets/icons/up-arrow.svg"
+    },
+    {
+      "name": "upload",
+      "png_path": "assets/icons/upload.png",
+      "svg_path": "assets/icons/upload.svg"
+    },
+    {
+      "name": "venn-diagram",
+      "png_path": "assets/icons/venn-diagram.png",
+      "svg_path": "assets/icons/venn-diagram.svg"
+    },
+    {
+      "name": "vision",
+      "png_path": "assets/icons/vision.png",
+      "svg_path": "assets/icons/vision.svg"
+    },
+    {
+      "name": "write",
+      "png_path": "assets/icons/write.png",
+      "svg_path": "assets/icons/write.svg"
+    }
+  ]
+}

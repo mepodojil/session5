@@ -1,0 +1,116 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.81,
+      "top": 1.11,
+      "width": 0.83,
+      "height": 0.94,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.08
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "“",
+          "alignment": "RIGHT",
+          "font_name": "+mj-lt",
+          "font_size": 66.0,
+          "bold": true
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 1.67,
+      "top": 1.18,
+      "width": 9.0,
+      "height": 3.0,
+      "paragraphs": [
+        {
+          "text": "Longer quote, format. No more \u000bthan five lines. Pid et res eiur. Cus \u000bminum volorem quiatur? Ga itatur \u000bhil ettal voloremqui catus as necus \u000blorem ipsum dolores sit amet.",
+          "space_after": 10.0,
+          "font_name": "+mj-lt",
+          "font_size": 32.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "line_spacing": 35.2
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 1.92,
+      "top": 5.54,
+      "width": 6.93,
+      "height": 0.88,
+      "paragraphs": [
+        {
+          "text": "Firstname  Lastname",
+          "space_after": 10.0,
+          "font_name": "+mj-lt",
+          "font_size": 14.0,
+          "bold": true,
+          "line_spacing": 15.4
+        },
+        {
+          "text": "position / title",
+          "space_after": 10.0,
+          "font_name": "+mj-lt",
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "133"
+        }
+      ]
+    }
+  }
+}

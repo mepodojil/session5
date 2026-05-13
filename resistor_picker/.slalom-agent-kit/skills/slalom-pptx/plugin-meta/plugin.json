@@ -1,0 +1,9 @@
+{
+  "name": "slalom-pptx",
+  "version": "0.2.2",
+  "description": "Create Slalom-branded PowerPoint presentations using the official Slalom template, with on-demand slide extraction (master + idx), text inventories, icons, brand colors, and vendored upstream pptx primitives (legacy + modern hybrid).",
+  "author": {
+    "name": "John Pospos"
+  },
+  "keywords": ["slalom", "pptx", "powerpoint", "presentation", "branding", "template"]
+}

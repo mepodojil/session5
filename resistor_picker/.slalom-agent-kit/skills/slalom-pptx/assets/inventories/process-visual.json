@@ -1,0 +1,751 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.62,
+      "width": 12.08,
+      "height": 0.5,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Process visual"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.27,
+      "width": 12.08,
+      "height": 0.44,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.28
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Subtitle necupta ius consequ osseritem quis eium faceperibus re lab il idi ipsum."
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.95,
+      "top": 1.92,
+      "width": 2.05,
+      "height": 0.69,
+      "paragraphs": [
+        {
+          "text": "TARGET",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 3.12,
+      "top": 1.92,
+      "width": 1.28,
+      "height": 2.32,
+      "paragraphs": [
+        {
+          "text": "Reactive Intake",
+          "space_after": 6.0,
+          "font_size": 9.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 8.1
+        },
+        {
+          "text": "Bulleted list example",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 9.9
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 4.36,
+      "top": 1.92,
+      "width": 2.46,
+      "height": 0.69,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-5": 0.03
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Pursuit",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Description",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 6.77,
+      "top": 1.92,
+      "width": 2.46,
+      "height": 0.69,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-4": 0.03
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Initial engagement",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Description",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 9.19,
+      "top": 1.92,
+      "width": 2.46,
+      "height": 0.69,
+      "paragraphs": [
+        {
+          "text": "Portfolio – \u000bKey Account",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Description",
+          "alignment": "CENTER",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.95,
+      "top": 2.71,
+      "width": 2.21,
+      "height": 3.73,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-11": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Bulleted list example",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Amet adipiscing",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Bulleted list example",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 9.9
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 4.36,
+      "top": 2.71,
+      "width": 2.3,
+      "height": 3.73,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-14": 1.24
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Bulleted list example",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Amet adipiscing",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Bulleted list example",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 6.77,
+      "top": 2.71,
+      "width": 2.3,
+      "height": 3.73,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-15": 1.24
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Bulleted list example",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Amet adipiscing",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Bulleted list example",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 9.18,
+      "top": 2.71,
+      "width": 2.3,
+      "height": 3.73,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-16": 1.24
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Bulleted list example",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Amet adipiscing",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Bulleted list example",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        }
+      ]
+    },
+    "shape-11": {
+      "left": -0.21,
+      "top": 3.59,
+      "width": 1.87,
+      "height": 0.14,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.22
+        }
+      },
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-7": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Prioritize by # of yes answers",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "1E1E1E",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 3.12,
+      "top": 4.34,
+      "width": 1.27,
+      "height": 2.1,
+      "paragraphs": [
+        {
+          "text": "Proactive \u000bAccount Intake",
+          "space_after": 6.0,
+          "font_size": 9.0,
+          "bold": true,
+          "color": "09091C",
+          "line_spacing": 8.1
+        },
+        {
+          "text": "Bulleted list example",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "theme_color": "TEXT_1",
+          "line_spacing": 9.9
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 24.05,
+      "top": 4.37,
+      "width": 0.61,
+      "height": 1.06,
+      "overflow": {
+        "slide": {
+          "overflow_right": 11.32
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Sales Executive",
+          "space_before": 6.0,
+          "font_size": 8.0
+        },
+        {
+          "text": "Account Leader",
+          "space_before": 6.0,
+          "font_size": 8.0
+        },
+        {
+          "text": "Capability Leader",
+          "space_before": 6.0,
+          "font_size": 8.0
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 4.51,
+      "top": 5.17,
+      "width": 1.74,
+      "height": 0.71,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-8": 1.24
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Team involvement text",
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Amet adipiscing",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "line_spacing": 9.9
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 6.93,
+      "top": 5.17,
+      "width": 1.74,
+      "height": 0.71,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-9": 1.24
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Team involvement text",
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Amet adipiscing",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "line_spacing": 9.9
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 9.34,
+      "top": 5.17,
+      "width": 1.74,
+      "height": 0.71,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-10": 1.24
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Team involvement text",
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Lorem ipsum dolor sit",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "line_spacing": 9.9
+        },
+        {
+          "text": "Amet adipiscing",
+          "bullet": true,
+          "level": 0,
+          "space_after": 3.0,
+          "font_size": 9.0,
+          "line_spacing": 9.9
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 4.36,
+      "top": 6.44,
+      "width": 2.3,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "Timeframe text",
+          "alignment": "CENTER",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "1E1E1E",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 5.91,
+      "top": 6.74,
+      "width": 1.59,
+      "height": 0.13,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Market Focus: Lorem Ipsum",
+          "alignment": "CENTER",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "1E1E1E",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 6.77,
+      "top": 6.44,
+      "width": 2.3,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "Timeframe text",
+          "alignment": "CENTER",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "1E1E1E",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-20": {
+      "left": 9.18,
+      "top": 6.44,
+      "width": 2.3,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "Timeframe text",
+          "alignment": "CENTER",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "1E1E1E",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-21": {
+      "left": 9.53,
+      "top": 6.74,
+      "width": 1.59,
+      "height": 0.13,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.2
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Market Focus: Lorem Ipsum",
+          "alignment": "CENTER",
+          "font_size": 8.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "1E1E1E",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-22": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-23": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-24": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "96"
+        }
+      ]
+    }
+  }
+}

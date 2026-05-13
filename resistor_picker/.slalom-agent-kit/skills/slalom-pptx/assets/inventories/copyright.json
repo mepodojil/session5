@@ -1,0 +1,82 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.62,
+      "width": 12.08,
+      "height": 1.51,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Copyright",
+          "font_size": 54.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 3.22,
+      "width": 5.92,
+      "height": 1.51,
+      "paragraphs": [
+        {
+          "text": "©2024 Slalom, Inc. All rights reserved. The information herein is for informational purposes only and represents the current view of Slalom, Inc. as of the date of this presentation. SLALOM MAKES NO WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, AS TO THE INFORMATION IN THIS PRESENTATION.",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "157"
+        }
+      ]
+    }
+  }
+}

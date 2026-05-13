@@ -1,0 +1,225 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 11.12,
+      "top": 0.0,
+      "width": 2.22,
+      "height": 0.32,
+      "paragraphs": [
+        {
+          "text": "READ ME THEN DELETE ME",
+          "font_name": "Slalom Sans Bold",
+          "font_size": 10.92,
+          "bold": true,
+          "color": "FFFFFF"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 11.13,
+      "top": 0.33,
+      "width": 2.2,
+      "height": 0.32,
+      "paragraphs": [
+        {
+          "text": "Example consultant profile",
+          "space_before": 3.12,
+          "font_name": "Slalom Sans",
+          "font_size": 8.79,
+          "color": "EB4536",
+          "line_spacing": 10.83
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 5.77,
+      "top": 0.62,
+      "width": 4.11,
+      "height": 0.68,
+      "placeholder_type": "BODY",
+      "paragraphs": [
+        {
+          "text": "Relevant Experience"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 10.92,
+      "top": 0.62,
+      "width": 1.77,
+      "height": 0.68,
+      "placeholder_type": "BODY",
+      "paragraphs": [
+        {
+          "text": "Skills"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 5.77,
+      "top": 1.71,
+      "width": 4.12,
+      "height": 4.96,
+      "placeholder_type": "BODY",
+      "paragraphs": [
+        {
+          "text": "Tableau Developer\u000bDeveloped dashboards and best practice recommendations for Tableau deployment including data governance process, \u000bvisualization best practice guidelines, and calculation enhancements.",
+          "font_size": 10.5,
+          "bold": true
+        },
+        {
+          "text": "Data Strategist – Supply Chain\u000bProvided recommendations and guidance on revamping enterprise architecture and tools as well as utilizing best practices for data driven insights. Salesforce and Oracle EDW implementations assessed and mapped to solve client’s growing data issue to better engage customers and align supply chain needs.",
+          "font_size": 10.5,
+          "bold": true
+        },
+        {
+          "text": "Tableau Architect\u000bHealth and Science, Lead development of Tableau dashboards and company wide best practices and standards for sales reports. Led training sessions and client",
+          "font_size": 10.5,
+          "bold": true
+        },
+        {
+          "text": "ETL Developer\u000bTechnology, Implemented ETL processes for custom reporting tool that was rolled up to C-Level executives. Also handled Tableau data source manipulation and extract performance",
+          "font_size": 10.5,
+          "bold": true
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 10.92,
+      "top": 1.71,
+      "width": 1.77,
+      "height": 4.96,
+      "placeholder_type": "BODY",
+      "paragraphs": [
+        {
+          "text": "Tableau Desktop v9 Qualified Associate",
+          "font_size": 10.5
+        },
+        {
+          "text": "Tableau Server",
+          "font_size": 10.5
+        },
+        {
+          "text": ".NET/C#",
+          "font_size": 10.5
+        },
+        {
+          "text": "Alteryx",
+          "font_size": 10.5
+        },
+        {
+          "text": "SQL",
+          "font_size": 10.5
+        },
+        {
+          "text": "Python",
+          "font_size": 10.5
+        },
+        {
+          "text": "Power BI",
+          "font_size": 10.5
+        },
+        {
+          "text": "Business Intelligence \u000b& Analytics",
+          "font_size": 10.5
+        },
+        {
+          "text": "Visual Best Practices",
+          "font_size": 10.5
+        },
+        {
+          "text": "Speaking and Workshops",
+          "font_size": 10.5
+        },
+        {
+          "text": "Proof of Concepts",
+          "font_size": 10.5
+        },
+        {
+          "text": "API Usage",
+          "font_size": 10.5
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.62,
+      "top": 3.0,
+      "width": 4.09,
+      "height": 1.08,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Firstname Lastname\u000bSpace/for/pronouns",
+          "theme_color": "ACCENT_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.62,
+      "top": 4.29,
+      "width": 4.09,
+      "height": 2.37,
+      "placeholder_type": "BODY",
+      "paragraphs": [
+        {
+          "text": "Consultant Information \u000bManagement & Analytics",
+          "bold": true
+        },
+        {
+          "text": "Dylan is a business-savvy consultant with Slalom’s Information Management & Analytics practice. Having a background in data visualization, architecture, and strategy allows him to be a crucial component to any client’s project from Fortune 500 to startups."
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "122"
+        }
+      ]
+    }
+  }
+}

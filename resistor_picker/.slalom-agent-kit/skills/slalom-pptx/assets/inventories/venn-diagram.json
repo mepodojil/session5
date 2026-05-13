@@ -1,0 +1,327 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.62,
+      "width": 3.08,
+      "height": 2.38,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Venn diagram. \u000bHeadline five lines or less.",
+          "theme_color": "ACCENT_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 7.99,
+      "top": 4.34,
+      "width": 1.83,
+      "height": 2.12,
+      "paragraphs": [
+        {
+          "text": "Item 1",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        },
+        {
+          "text": "Item 2",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        },
+        {
+          "text": "Item 3",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        },
+        {
+          "text": "Item 4",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        },
+        {
+          "text": "Item 5",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        },
+        {
+          "text": "Item 6",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 8.01,
+      "top": 3.95,
+      "width": 1.83,
+      "height": 0.21,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.31
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "TEAM 1",
+          "alignment": "CENTER",
+          "space_after": 15.99,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 10.16,
+      "top": 3.95,
+      "width": 1.83,
+      "height": 0.21,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.31
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "TEAM 2",
+          "alignment": "CENTER",
+          "space_after": 15.99,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "BACKGROUND_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 10.17,
+      "top": 4.34,
+      "width": 1.83,
+      "height": 2.12,
+      "paragraphs": [
+        {
+          "text": "Item 1",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Item 2",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Item 3",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Item 4",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Item 5",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        },
+        {
+          "text": "Item 6",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "theme_color": "BACKGROUND_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 12.3,
+      "top": 3.95,
+      "width": 1.83,
+      "height": 0.21,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.31
+        },
+        "slide": {
+          "overflow_right": 0.8
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "TEAM 3",
+          "alignment": "CENTER",
+          "space_after": 15.99,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "bold": true,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 14.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 12.3,
+      "top": 4.34,
+      "width": 1.83,
+      "height": 2.12,
+      "overflow": {
+        "slide": {
+          "overflow_right": 0.8
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Item 1",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        },
+        {
+          "text": "Item 2",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        },
+        {
+          "text": "Item 3",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        },
+        {
+          "text": "Item 4",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        },
+        {
+          "text": "Item 5",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        },
+        {
+          "text": "Item 6",
+          "alignment": "CENTER",
+          "space_before": 12.0,
+          "font_name": "+mn-lt",
+          "font_size": 14.0,
+          "color": "151527"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.62,
+      "top": 4.51,
+      "width": 2.83,
+      "height": 1.91,
+      "paragraphs": [
+        {
+          "text": "Optional text Beremod maximusaesto dunt labo. \u000bEt  laborum que parit invere nullit et, simporiatium \u000bet  exceatibus sim laborro",
+          "space_after": 10.0,
+          "font_size": 14.0,
+          "line_spacing": 15.4
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "115"
+        }
+      ]
+    }
+  }
+}

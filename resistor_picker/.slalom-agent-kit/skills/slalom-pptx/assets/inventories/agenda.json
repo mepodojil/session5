@@ -1,0 +1,99 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.62,
+      "top": 0.62,
+      "width": 3.86,
+      "height": 3.12,
+      "placeholder_type": "TITLE",
+      "default_font_size": 54.0,
+      "paragraphs": [
+        {
+          "text": "Today’s \u000bagenda"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 6.79,
+      "top": 1.92,
+      "width": 5.92,
+      "height": 3.67,
+      "placeholder_type": "BODY",
+      "default_font_size": 22.0,
+      "paragraphs": [
+        {
+          "text": "First agenda point"
+        },
+        {
+          "text": "Click enter to go to the next bullet"
+        },
+        {
+          "text": "Here’s another bullet"
+        },
+        {
+          "text": "This is a great list"
+        },
+        {
+          "text": "Keep adding bullets"
+        },
+        {
+          "text": "Just keep going"
+        },
+        {
+          "text": "As many as you want"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 1.51,
+      "top": 7.11,
+      "width": 0.28,
+      "height": 0.15,
+      "placeholder_type": "DATE",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2025"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.8,
+      "top": 7.11,
+      "width": 7.13,
+      "height": 0.15,
+      "placeholder_type": "FOOTER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Slalom. All Rights Reserved. Proprietary and Confidential."
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 12.33,
+      "top": 7.11,
+      "width": 0.37,
+      "height": 0.15,
+      "placeholder_type": "SLIDE_NUMBER",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "26"
+        }
+      ]
+    }
+  }
+}
